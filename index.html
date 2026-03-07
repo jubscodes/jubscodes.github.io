@@ -47,6 +47,7 @@
 
     /* Layout */
     .container { max-width: 1200px; margin: 0 auto; padding: 0 48px; }
+    .full-width { max-width: 100%; padding: 0 48px; }
     .separator { border: none; border-top: 1px solid var(--border); margin: 64px 0; }
 
     /* Hero */
@@ -98,34 +99,97 @@
       font-family: var(--font-mono); font-size: 8px; color: var(--border-hover);
       letter-spacing: 0.1em; opacity: 0.4; user-select: none; line-height: 1;
     }
-    .kit-card-ascii-bottom { height: 8px; overflow: hidden; border-top: 1px solid var(--border); font-family: var(--font-mono); font-size: 8px; color: var(--border-hover); letter-spacing: 0.1em; opacity: 0.4; user-select: none; line-height: 1; }
+    .kit-card-ascii-bottom {
+      height: 8px; overflow: hidden; border-top: 1px solid var(--border);
+      font-family: var(--font-mono); font-size: 8px; color: var(--border-hover);
+      letter-spacing: 0.1em; opacity: 0.4; user-select: none; line-height: 1;
+    }
     .kit-card-preview {
       padding: 32px; background: var(--bg); border-bottom: 1px solid var(--border);
       min-height: 200px; display: flex; align-items: center; justify-content: center;
-      gap: 12px; flex-wrap: wrap;
+      gap: 12px; flex-wrap: wrap; position: relative;
     }
     .kit-card-content { padding: 24px; display: flex; flex-direction: column; gap: 12px; }
     .kit-card-header { display: flex; align-items: center; justify-content: space-between; }
     .kit-card-label { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
     .kit-card-desc { font-size: 14px; color: var(--muted); }
     .kit-card-actions { display: flex; align-items: center; gap: 12px; margin-top: 4px; }
-
-    /* Badges */
-    .badge {
-      display: inline-flex; align-items: center; padding: 2px 8px;
-      font-size: 12px; font-weight: 500; border-radius: 2px; border: 1px solid;
+    .kit-card-category {
+      font-family: var(--font-mono); font-size: 10px; text-transform: uppercase;
+      letter-spacing: 0.1em; padding: 2px 6px; border-radius: 2px;
     }
-    .badge-primary { background: rgba(0,255,136,0.15); color: var(--primary); border-color: rgba(0,255,136,0.2); }
-    .badge-default { background: var(--surface); color: var(--fg); border-color: var(--border); }
+    .cat-ui-kit { color: var(--primary); background: rgba(0,255,136,0.1); border: 1px solid rgba(0,255,136,0.2); }
+    .cat-dev-tool { color: var(--secondary); background: rgba(255,107,53,0.1); border: 1px solid rgba(255,107,53,0.2); }
 
-    /* Input */
-    .input {
-      height: 40px; padding: 0 16px; background: #1C1C1C; color: var(--fg);
-      border: 1px solid var(--border); border-radius: 2px;
-      font-family: var(--font-sans); font-size: 14px; outline: none;
+    /* CypherCN preview components */
+    .cypher-btn {
+      font-family: var(--font-mono); font-size: 12px; text-transform: uppercase;
+      letter-spacing: 0.05em; border: 1px solid var(--fg); background: transparent;
+      color: var(--fg); padding: 6px 12px; cursor: pointer; transition: all 200ms;
     }
-    .input::placeholder { color: var(--muted); }
-    .input:hover { border-color: var(--border-hover); }
+    .cypher-btn:hover {
+      box-shadow: 0 0 4px var(--primary), 0 0 8px var(--primary);
+      border-color: var(--primary); color: var(--primary);
+    }
+    .cypher-btn-filled {
+      font-family: var(--font-mono); font-size: 12px; text-transform: uppercase;
+      letter-spacing: 0.05em; border: 1px solid var(--fg); background: var(--fg);
+      color: var(--bg); padding: 6px 12px; cursor: pointer;
+    }
+    .cypher-btn-terminal {
+      font-family: var(--font-mono); font-size: 12px; text-transform: uppercase;
+      letter-spacing: 0.05em; border: 1px solid var(--fg); background: transparent;
+      color: var(--fg); padding: 6px 12px; cursor: pointer; transition: all 200ms;
+    }
+    .cypher-btn-terminal:hover { background: rgba(255,255,255,0.05); }
+    .cypher-badge-bracket {
+      font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+      letter-spacing: 0.05em; color: var(--primary);
+    }
+    .cypher-badge-tag {
+      font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+      letter-spacing: 0.05em; color: var(--muted);
+    }
+    .cypher-badge-dot {
+      font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+      letter-spacing: 0.05em; color: var(--fg);
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .cypher-badge-dot::before {
+      content: ''; display: inline-block; width: 6px; height: 6px;
+      background: var(--primary); border-radius: 50%;
+    }
+    .cypher-input {
+      font-family: var(--font-mono); font-size: 12px; color: var(--muted);
+      display: flex; align-items: center; gap: 6px;
+    }
+    .cypher-input .prompt { color: rgba(255,255,255,0.5); user-select: none; }
+    .cypher-scanlines {
+      position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+      pointer-events: none; z-index: 1;
+      background: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.08) 50%);
+      background-size: 100% 4px;
+    }
+
+    /* GSP preview */
+    .gsp-pipeline {
+      font-family: var(--font-mono); font-size: 11px; color: var(--muted);
+      display: flex; flex-direction: column; gap: 4px; width: 100%;
+      max-width: 320px;
+    }
+    .gsp-step {
+      display: flex; align-items: center; gap: 8px;
+      padding: 4px 8px; transition: color 200ms;
+    }
+    .gsp-step .icon { width: 16px; text-align: center; flex-shrink: 0; }
+    .gsp-step .name { flex: 1; }
+    .gsp-step .status { font-size: 10px; }
+    .gsp-step.done { color: var(--fg); }
+    .gsp-step.done .icon { color: var(--success); }
+    .gsp-step.active { color: var(--secondary); }
+    .gsp-step.active .icon { color: var(--secondary); }
+    .gsp-step.pending { color: var(--border-hover); }
+    .gsp-connector { width: 16px; text-align: center; color: var(--border-hover); font-size: 10px; padding-left: 4px; }
 
     /* Section */
     .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; }
@@ -151,6 +215,7 @@
 
     /* Footer */
     .footer { padding: 48px 0 24px; border-top: 1px solid var(--border); }
+    .footer-inner { max-width: 100%; padding: 0 48px; }
     .footer-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px; }
     .footer-brand { font-family: var(--font-mono); font-weight: 500; font-size: 15px; margin-bottom: 8px; }
     .footer-tagline { font-size: 14px; color: var(--muted); }
@@ -167,19 +232,20 @@
       .nav { padding: 0 16px; }
       .nav-links { gap: 16px; }
       .nav-link { font-size: 13px; }
-      .container { padding: 0 16px; }
+      .container, .full-width, .footer-inner { padding: 0 16px; }
       .hero { padding: 80px 0 48px; }
       .hero-title { font-size: 36px; }
       .hero-sub { font-size: 16px; }
       .hero-actions { flex-direction: column; align-items: flex-start; }
       .code-inline { font-size: 12px; overflow-x: auto; max-width: 100%; }
       .kit-grid { grid-template-columns: 1fr; }
-      .kit-card-preview { padding: 24px 16px; gap: 8px; }
+      .kit-card-preview { padding: 24px 16px; }
       .manifesto p { font-size: 18px; }
       .manifesto { padding: 48px 0; }
       .terminal-body { padding: 16px; font-size: 13px; }
       .footer-grid { grid-template-columns: 1fr; gap: 32px; }
       .separator { margin: 40px 0; }
+      .gsp-pipeline { max-width: 100%; }
     }
 
     @media (max-width: 380px) {
@@ -219,45 +285,70 @@
 
     <div class="container"><hr class="separator"></div>
 
+    <!-- PROJECTS -->
     <section class="container">
       <div class="section-header">
-        <span class="section-label">DESIGNS</span>
+        <span class="section-label">PROJECTS</span>
       </div>
       <div class="kit-grid">
+
+        <!-- CypherCN -->
         <article class="kit-card">
           <div class="kit-card-ascii">╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶</div>
           <div class="kit-card-preview">
-            <button class="btn btn-primary btn-sm">Primary</button>
-            <button class="btn btn-ghost btn-sm">Ghost</button>
-            <button class="btn btn-outline btn-sm">Outline</button>
-            <input class="input" placeholder="Type here..." style="max-width: 200px;">
-            <span class="badge badge-primary">Active</span>
-            <span class="badge badge-default">Default</span>
+            <div class="cypher-scanlines"></div>
+            <button class="cypher-btn-filled">EXECUTE</button>
+            <button class="cypher-btn">[ GHOST ]</button>
+            <button class="cypher-btn-terminal">[ TERMINAL ]</button>
+            <span class="cypher-badge-bracket">[ACTIVE]</span>
+            <span class="cypher-badge-tag">&lt;SYSTEM&gt;</span>
+            <span class="cypher-badge-dot">ONLINE</span>
+            <div class="cypher-input"><span class="prompt">&gt;</span> ENTER COMMAND_</div>
           </div>
           <div class="kit-card-content">
             <div class="kit-card-header">
-              <span class="kit-card-label">KIT.001</span>
-              <span class="kit-card-label">CypherCN</span>
+              <span class="kit-card-label">KIT.001 — CypherCN</span>
+              <span class="kit-card-category cat-ui-kit">UI Kit</span>
             </div>
-            <p class="kit-card-desc">Terminal-inspired shadcn components. 34 components. Dark mode native. WCAG AA.</p>
+            <p class="kit-card-desc">Terminal-inspired shadcn stylization. 60+ components. Phosphor glow, CRT scanlines, box-drawing borders. Dark mode native. WCAG AA.</p>
             <div class="kit-card-actions">
               <a class="btn btn-ghost btn-sm" href="https://github.com/jubscodes/cyphercn" target="_blank" rel="noopener">Explore</a>
+              <div class="code-inline" style="flex: 1; font-size: 11px;">
+                <code style="font-size: 11px;">pnpm dlx shadcn@latest add @cyphercn/button</code>
+              </div>
             </div>
           </div>
           <div class="kit-card-ascii-bottom">╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶</div>
         </article>
 
-        <article class="kit-card" style="opacity: 0.7;">
+        <!-- Get Shit Pretty -->
+        <article class="kit-card">
           <div class="kit-card-ascii">╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶</div>
-          <div class="kit-card-preview" style="min-height: 200px;">
-            <span style="font-family: var(--font-mono); font-size: 48px; color: var(--border-hover); opacity: 0.3;">???????</span>
+          <div class="kit-card-preview">
+            <div class="gsp-pipeline">
+              <div class="gsp-step done"><span class="icon">✓</span><span class="name">/gsp:research</span><span class="status">TRENDS.md</span></div>
+              <div class="gsp-connector">↓</div>
+              <div class="gsp-step done"><span class="icon">✓</span><span class="name">/gsp:brand</span><span class="status">IDENTITY.md</span></div>
+              <div class="gsp-connector">↓</div>
+              <div class="gsp-step done"><span class="icon">✓</span><span class="name">/gsp:system</span><span class="status">SYSTEM.md</span></div>
+              <div class="gsp-connector">↓</div>
+              <div class="gsp-step active"><span class="icon">▸</span><span class="name">/gsp:design</span><span class="status">running...</span></div>
+              <div class="gsp-connector">↓</div>
+              <div class="gsp-step pending"><span class="icon">○</span><span class="name">/gsp:build</span></div>
+            </div>
           </div>
           <div class="kit-card-content">
             <div class="kit-card-header">
-              <span class="kit-card-label">KIT.002</span>
-              <span class="kit-card-label">????????</span>
+              <span class="kit-card-label">GSP — Get Shit Pretty</span>
+              <span class="kit-card-category cat-dev-tool">Dev Tool</span>
             </div>
-            <p class="kit-card-desc">Something different. Coming soon.</p>
+            <p class="kit-card-desc">Design engineering for AI coding tools. 9 specialized agents, 11 skills. Research, brand, design system, UI, specs, review, build, launch — from your terminal.</p>
+            <div class="kit-card-actions">
+              <a class="btn btn-ghost btn-sm" href="https://github.com/jubscodes/get-shit-pretty" target="_blank" rel="noopener">Explore</a>
+              <div class="code-inline" style="flex: 1; font-size: 11px;">
+                <code style="font-size: 11px;">npx get-shit-pretty</code>
+              </div>
+            </div>
           </div>
           <div class="kit-card-ascii-bottom">╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶</div>
         </article>
@@ -266,29 +357,31 @@
 
     <div class="container"><hr class="separator"></div>
 
+    <!-- MANIFESTO -->
     <section class="container">
       <div class="manifesto">
-        <p>We believe defaults should be beautiful.</p>
+        <p>I believe defaults should be beautiful.</p>
         <p class="muted">Not beautiful "for a UI kit." Beautiful, full stop.</p>
-        <p>We believe opinion is a feature.</p>
+        <p>I believe opinion is a feature.</p>
         <p class="muted">That every component should look like it belongs. That coherence is worth more than configuration.</p>
-        <p>We build design objects, not blank canvases.</p>
+        <p>I build design objects, not blank canvases.</p>
         <p class="muted">For the builders who ship, and the agents that assist them.</p>
-        <p>Bland is a choice. We chose different.</p>
+        <p>Bland is a choice. I chose different.</p>
       </div>
     </section>
 
     <div class="container"><hr class="separator"></div>
 
+    <!-- TERMINAL -->
     <section class="container" style="padding-bottom: 80px;">
       <div class="terminal">
         <div class="terminal-header">─ install ─</div>
         <div class="terminal-body">
           <div class="terminal-line"><span class="prompt">$</span> <span>npx get-shit-pretty</span></div>
           <div class="terminal-line"><span class="info">&nbsp;</span></div>
-          <div class="terminal-line"><span class="success">✓</span> <span>34 components installed</span></div>
-          <div class="terminal-line"><span class="success">✓</span> <span>Dark mode: enabled</span></div>
-          <div class="terminal-line"><span class="success">✓</span> <span>Tokens: configured</span></div>
+          <div class="terminal-line"><span class="success">✓</span> <span>9 agents loaded</span></div>
+          <div class="terminal-line"><span class="success">✓</span> <span>11 skills installed</span></div>
+          <div class="terminal-line"><span class="success">✓</span> <span>Design pipeline: ready</span></div>
           <div class="terminal-line"><span class="info">&nbsp;</span></div>
           <div class="terminal-line"><span class="info">Ready. Your UI has taste now.</span></div>
           <div class="terminal-cursor">
@@ -301,32 +394,34 @@
 
   </main>
 
-  <footer class="container footer">
-    <div class="footer-grid">
-      <div>
-        <div class="footer-brand">jubs.studio</div>
-        <div class="footer-tagline">Opinionated UI kits<br>for builders.</div>
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">jubs.studio</div>
+          <div class="footer-tagline">Opinionated UI kits<br>for builders.</div>
+        </div>
+        <div>
+          <div class="footer-heading">Projects</div>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="https://github.com/jubscodes/cyphercn" target="_blank" rel="noopener">CypherCN</a></li>
+            <li><a class="footer-link" href="https://github.com/jubscodes/get-shit-pretty" target="_blank" rel="noopener">Get Shit Pretty</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-heading">Connect</div>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="https://github.com/jubscodes" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a class="footer-link" href="https://x.com/hoffz_eth" target="_blank" rel="noopener">X</a></li>
+            <li><a class="footer-link" href="https://www.linkedin.com/in/julia-hoffmann-/" target="_blank" rel="noopener">LinkedIn</a></li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <div class="footer-heading">Products</div>
-        <ul class="footer-links">
-          <li><a class="footer-link" href="https://github.com/jubscodes/cyphercn" target="_blank" rel="noopener">CypherCN</a></li>
-          <li><a class="footer-link" href="https://github.com/jubscodes/get-shit-pretty" target="_blank" rel="noopener">get-shit-pretty</a></li>
-        </ul>
-      </div>
-      <div>
-        <div class="footer-heading">Connect</div>
-        <ul class="footer-links">
-          <li><a class="footer-link" href="https://github.com/jubscodes" target="_blank" rel="noopener">GitHub</a></li>
-          <li><a class="footer-link" href="https://x.com/hoffz_eth" target="_blank" rel="noopener">X</a></li>
-          <li><a class="footer-link" href="https://www.linkedin.com/in/julia-hoffmann-/" target="_blank" rel="noopener">LinkedIn</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <div class="footer-ascii">
-        <span>>_ █</span>
-        <span>v0.1.0</span>
+      <div class="footer-bottom">
+        <div class="footer-ascii">
+          <span>>_ █</span>
+          <span>v0.1.0</span>
+        </div>
       </div>
     </div>
   </footer>
