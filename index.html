@@ -25,16 +25,36 @@
       letter-spacing: 0.1em;
       margin-bottom: 1rem;
     }
-    p {
+    .status {
       color: #555;
       font-size: 0.875rem;
+      margin-bottom: 2rem;
+    }
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+    .links a {
+      color: #555;
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+    .links a:hover {
+      color: #00CC6A;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>jubs.studio</h1>
-    <p>coming soon</p>
+    <p class="status">coming soon</p>
+    <nav class="links">
+      <a href="https://github.com/jubscodes" target="_blank" rel="noopener">github</a>
+      <a href="https://x.com/hoffz_eth" target="_blank" rel="noopener">x</a>
+      <a href="https://www.linkedin.com/in/julia-hoffmann-/" target="_blank" rel="noopener">linkedin</a>
+    </nav>
   </div>
 </body>
 </html>
