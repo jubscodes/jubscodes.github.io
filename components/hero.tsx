@@ -1,0 +1,27 @@
+export function Hero() {
+  return (
+    <section className="mx-auto max-w-[1200px] px-12 pt-[120px] pb-20">
+      <p className="mb-4 font-mono text-[15px] text-muted opacity-60">
+        {">_"} jubs.studio
+        <span className="ml-0 inline-block animate-pulse text-primary">█</span>
+      </p>
+      <h1 className="mb-5 text-[64px] font-bold leading-[1.05] tracking-[-0.02em]">
+        Code with taste.
+      </h1>
+      <p className="mb-10 max-w-[480px] text-lg text-muted">
+        A design engineering solo studio. Opinionated UI kits and AI design tools — for devs and agents alike.
+      </p>
+      <div className="flex flex-wrap items-center gap-4">
+        <a
+          href="#projects"
+          className="inline-flex h-10 items-center justify-center rounded-[2px] bg-primary px-6 text-sm font-medium text-bg transition-opacity hover:opacity-90 active:scale-[0.98]"
+        >
+          View projects
+        </a>
+        <div className="inline-flex items-center gap-2 rounded-[2px] border border-border bg-surface px-3 py-1.5 font-mono text-[13px]">
+          <code>npx get-shit-pretty</code>
+        </div>
+      </div>
+    </section>
+  );
+}

@@ -1,5 +1,6 @@
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import { Nav } from "@/components/nav";
+import { Footer } from "@/components/footer";
 import "./globals.css";
 
 const sans = Space_Grotesk({
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
