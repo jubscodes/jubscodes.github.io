@@ -1,6 +1,7 @@
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { structuredData } from "@/lib/structured-data";
 import "./globals.css";
 
 const sans = Space_Grotesk({
@@ -23,6 +24,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${sans.variable} ${mono.variable}`}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
         <Nav />
         {children}
         <Footer />
