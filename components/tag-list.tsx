@@ -1,0 +1,21 @@
+type Accent = "primary" | "secondary" | "tertiary";
+
+const accent: Record<Accent, string> = {
+  primary: "border-primary/30 text-primary",
+  secondary: "border-secondary/30 text-secondary",
+  tertiary: "border-tertiary/30 text-tertiary",
+};
+
+export function TagList({ tags, accent: a }: { tags: string[]; accent: Accent }) {
+  return (
+    <section className="mx-auto max-w-5xl px-8 py-6">
+      <div className="flex flex-wrap gap-2">
+        {tags.map((t) => (
+          <span key={t} className={`border px-3 py-1 font-mono text-[11px] uppercase tracking-wider ${accent[a]}`}>
+            {t}
+          </span>
+        ))}
+      </div>
+    </section>
+  );
+}
