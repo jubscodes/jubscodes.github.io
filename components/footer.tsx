@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer className="border-t border-border pt-12 pb-6">
       <div className="mx-auto max-w-[1200px] px-12">
-        <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-12">
+        <div className="mb-12 grid grid-cols-1 gap-8 md:grid-cols-4 md:gap-12">
           <div>
             <div className="mb-2 font-mono text-[15px] font-medium">jubs.studio</div>
             <div className="text-sm text-muted">
@@ -34,6 +34,26 @@ export function Footer() {
                   className="text-sm text-muted transition-colors hover:text-fg"
                 >
                   Get Shit Pretty
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className="mb-4 font-mono text-xs uppercase tracking-wider text-muted">Selected Work</p>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <a href="/projects/shippit/" className="hover:text-secondary">
+                  Shippit
+                </a>
+              </li>
+              <li>
+                <a href="/projects/notus/" className="hover:text-secondary">
+                  Notus / Chainless
+                </a>
+              </li>
+              <li>
+                <a href="/projects/heimdall/" className="hover:text-secondary">
+                  Heimdall
                 </a>
               </li>
             </ul>
