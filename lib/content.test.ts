@@ -194,3 +194,18 @@ accent: tertiary
 ---
 `;
 }
+
+describe("real content loads", () => {
+  it("getCaseStudies parses 3 case studies", async () => {
+    const { getCaseStudies } = await import("@/lib/content");
+    const cs = await getCaseStudies();
+    expect(cs.length).toBe(3);
+    expect(cs.map((c) => c.slug).sort()).toEqual(["heimdall", "notus", "shippit"]);
+  });
+
+  it("getExperiences parses 4 experiences", async () => {
+    const { getExperiences } = await import("@/lib/content");
+    const ex = await getExperiences();
+    expect(ex.length).toBe(4);
+  });
+});
