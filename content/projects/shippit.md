@@ -23,11 +23,13 @@ links:
   - { label: "Live site", href: "https://shippit.com", external: true }
   - { label: "LinkedIn role", href: "https://linkedin.com/in/julia-hoffmann-/", external: true }
 ---
+<!-- DRAFT: needs user edit pass -->
+
 ## Context
-Placeholder. Stage 5 (Task 27) authors ~80 words on the company stage and problem space.
+Shippit is an agentic AI platform — agents that act as engineering coworkers, not just chatbots. I joined as Design Engineer in April 2025 with the company at early-product stage: working prototype, no design system, codebase that had grown faster than its conventions. The product needed to feel calm and trustworthy while exposing agent behavior that's inherently chaotic. My remit: front-end ownership across the whole product surface.
 
 ## What I did
-Placeholder. Stage 5 authors ~80 words on the actual work.
+Authored the AI rules file that governs how Claude/Cursor agents propose code in this repo — turned implicit conventions into explicit guidance. Refactored the front-end: split monoliths into component-scoped files, replaced ad-hoc CSS with token-based Tailwind, set up shadcn/ui for primitives. Established a design system that scales: composition rules, accent system for agent state, typography scale tied to information hierarchy. Worked end-to-end from Figma to shipped React.
 
 ## Outcome
-Placeholder. Stage 5 authors ~80 words on what shipped and impact.
+The design system is the foundation new product surfaces are built on. AI rules are referenced by every PR. The refactored codebase ships features faster — fewer "where does this go" decisions. Branding work shipped; product website v1 in flight as of April 2026. Active engagement.
