@@ -6,7 +6,7 @@ export function ImageStrip({ images }: { images: ImgT[] }) {
   if (images.length === 0) return null;
   return (
     <Container as="section" variant="narrow" className="py-10">
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
         {images.map((img, i) => (
           <div key={i} className="relative aspect-video overflow-hidden border border-border bg-surface">
             <Image

@@ -15,12 +15,12 @@ export function PrevNextNav({ prev, next, accent }: { prev: Item; next: Item; ac
   return (
     <>
       <div aria-hidden className="h-px w-full bg-border" />
-      <Container as="nav" variant="narrow" className="grid grid-cols-2 gap-6 py-12">
+      <Container as="nav" variant="narrow" className="grid grid-cols-1 gap-8 py-12 md:grid-cols-2 md:gap-6">
         <Link href={`/projects/${prev.slug}/`} className="group block">
           <p className="font-mono text-xs uppercase tracking-wider text-muted">◂ Previous case study</p>
           <p className={`mt-2 text-2xl font-medium ${hoverCls}`}>{prev.name}</p>
         </Link>
-        <Link href={`/projects/${next.slug}/`} className="group block text-right">
+        <Link href={`/projects/${next.slug}/`} className="group block md:text-right">
           <p className="font-mono text-xs uppercase tracking-wider text-muted">Next case study ▸</p>
           <p className={`mt-2 text-2xl font-medium ${hoverCls}`}>{next.name}</p>
         </Link>
