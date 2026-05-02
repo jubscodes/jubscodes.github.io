@@ -43,11 +43,11 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         accent={c.accent}
       />
       <LinkList links={c.links} accent={c.accent} />
+      <TagList tags={c.tags} accent={c.accent} />
       <ContentBlock label="Context"><p>{c.body.context}</p></ContentBlock>
       <ContentBlock label="What I did"><p>{c.body.whatIDid}</p></ContentBlock>
       <ContentBlock label="Outcome"><p>{c.body.outcome}</p></ContentBlock>
       <ImageStrip images={c.images} />
-      <TagList tags={c.tags} accent={c.accent} />
       <PrevNextNav prev={{ slug: prev.slug, name: prev.name }} next={{ slug: next.slug, name: next.name }} accent={c.accent} />
     </article>
   );
