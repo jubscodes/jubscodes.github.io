@@ -50,14 +50,6 @@ export function ProjectCardActive({ project }: { project: ActiveProject }) {
           )}
         </div>
       </div>
-
-      {/* Bottom ascii dashes */}
-      <div
-        aria-hidden="true"
-        className="h-2 select-none overflow-hidden border-t border-border font-mono text-[8px] leading-none tracking-[0.1em] text-border-hover opacity-40"
-      >
-        ╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶╶
-      </div>
     </article>
   );
 }
