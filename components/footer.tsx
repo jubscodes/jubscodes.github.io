@@ -77,11 +77,12 @@ export function Footer() {
             <FooterColumn label="Selected Work" items={links.selectedWork} accent="secondary" />
             <FooterColumn label="Connect" items={links.connect} accent="tertiary" />
           </div>
-          <div className="border-t border-border pt-6">
-            <div className="flex flex-col gap-2 font-mono text-xs text-muted md:flex-row md:items-center md:justify-between">
-              <span>© {year} Julia Hoffmann · jubs.studio</span>
-              <span className="text-border-hover">{">_"} v0.1.0</span>
-            </div>
+        </div>
+        <div aria-hidden className="h-px w-full bg-border" />
+        <div className="mx-auto max-w-[1200px] px-12 pt-6">
+          <div className="flex flex-col gap-2 font-mono text-xs text-muted md:flex-row md:items-center md:justify-between">
+            <span>© {year} Julia Hoffmann · jubs.studio</span>
+            <span className="text-border-hover">{">_"} v0.1.0</span>
           </div>
         </div>
       </footer>
