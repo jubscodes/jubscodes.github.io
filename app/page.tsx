@@ -39,7 +39,7 @@ export default async function Home() {
                 slug: c.slug,
                 name: c.name,
                 meta: `${c.role} · ${c.period}`,
-                cover: { src: c.cover, alt: `${c.name} cover` },
+                cover: c.images?.[0] ?? { src: c.cover, alt: `${c.name} cover` },
                 outcome: c.outcome,
                 tags: c.tags,
                 links: c.links.slice(0, 1),
