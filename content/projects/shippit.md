@@ -6,7 +6,7 @@ published: true
 order: 1
 role: Design Engineer
 company: Shippit
-company_url: https://shippit.com
+company_url: https://shippit.app
 period: 2025 — present
 start_date: 2025-04
 end_date: null
@@ -20,7 +20,7 @@ images:
 outcome: Built front-end for an agentic AI platform. Authored AI rules, refactored the codebase, established a design system that scales with the product.
 tags: [design-system, react, ai-rules, typescript, refactoring]
 links:
-  - { label: "Live site", href: "https://shippit.com", external: true }
+  - { label: "Live site", href: "https://shippit.app", external: true }
   - { label: "LinkedIn role", href: "https://linkedin.com/in/julia-hoffmann-/", external: true }
 ---
 <!-- DRAFT: needs user edit pass -->

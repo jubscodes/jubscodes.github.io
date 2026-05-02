@@ -23,7 +23,8 @@ images:
 outcome: Cofounded Notus and led product + design for Chainless, a Brazilian crypto fintech. Designed KYC and transaction UX. Launched at Blockchain Rio. Managed the design team.
 tags: [product, fintech, crypto, leadership, kyc]
 links:
-  - { label: "About Notus", href: "https://notus.team", external: true }
+  - { label: "Chainless", href: "https://chainless.finance", external: true }
+  - { label: "Notus", href: "https://notus.team", external: true }
 ---
 <!-- DRAFT: needs user edit pass -->
 
