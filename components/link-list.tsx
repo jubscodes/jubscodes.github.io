@@ -12,7 +12,7 @@ const accentHover: Record<Accent, string> = {
 export function LinkList({ links, accent }: { links: Link[]; accent: Accent }) {
   if (links.length === 0) return null;
   return (
-    <Container as="section" variant="narrow" className="pt-0 pb-12">
+    <Container as="section" variant="narrow" className="py-12">
       <ul className="flex flex-wrap gap-4">
         {links.map((l) => (
           <li key={l.href}>

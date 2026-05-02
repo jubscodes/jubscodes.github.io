@@ -19,12 +19,23 @@ export function CaseStudyHero(props: {
   accent: Accent;
 }) {
   return (
-    <header>
-      <div className="relative aspect-[16/9] w-full bg-surface">
-        <Image src={props.cover} alt={`${props.name} cover`} fill className="object-cover" priority sizes="100vw" />
-      </div>
-      <Container variant="narrow" className="py-12">
-        <h1 className="text-5xl font-bold tracking-tight md:text-6xl">{props.name}</h1>
+    <header className="relative h-[60vh] min-h-[480px] w-full overflow-hidden bg-surface">
+      <Image
+        src={props.cover}
+        alt={`${props.name} cover`}
+        fill
+        className="object-cover"
+        priority
+        sizes="100vw"
+      />
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-gradient-to-t from-bg from-15% via-bg/55 to-bg/10"
+      />
+      <Container variant="narrow" className="absolute inset-x-0 bottom-0 py-12">
+        <h1 className="text-5xl font-bold tracking-tight md:text-6xl">
+          {props.name}
+        </h1>
         <div className={`mt-4 h-0.5 w-16 ${accentBg[props.accent]}`} />
         <p className="mt-6 font-mono text-xs uppercase tracking-wider text-muted">
           {props.role} · {props.company} · {props.period}
