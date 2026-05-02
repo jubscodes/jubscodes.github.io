@@ -2,8 +2,9 @@ import { Container } from "./container";
 
 export function WorkList({ children }: { children: React.ReactNode }) {
   return (
-    <Container variant="wide" className="border-t border-border">
-      {children}
-    </Container>
+    <>
+      <div aria-hidden className="h-px w-full bg-border" />
+      <Container variant="wide">{children}</Container>
+    </>
   );
 }
