@@ -11,7 +11,7 @@ export function TagList({ tags, accent: a }: { tags: string[]; accent: Accent })
     <section className="mx-auto max-w-5xl px-8 py-6">
       <div className="flex flex-wrap gap-2">
         {tags.map((t) => (
-          <span key={t} className={`border px-3 py-1 font-mono text-[11px] uppercase tracking-wider ${accent[a]}`}>
+          <span key={t} className={`rounded-[2px] border px-3 py-1 font-mono text-[11px] uppercase tracking-[0.08em] ${accent[a]}`}>
             {t}
           </span>
         ))}

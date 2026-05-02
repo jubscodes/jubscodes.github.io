@@ -77,7 +77,7 @@ export function WorkRow({
               {item.tags.map((t) => (
                 <span
                   key={t}
-                  className="border border-border px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider text-muted"
+                  className="rounded-[2px] border border-border px-1.5 py-0.5 font-mono text-[11px] uppercase tracking-[0.08em] text-muted"
                 >
                   {t}
                 </span>

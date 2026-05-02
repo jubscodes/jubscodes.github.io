@@ -36,7 +36,7 @@ function FooterColumn({
 }) {
   return (
     <div>
-      <p className="mb-4 font-mono text-[11px] uppercase tracking-[0.08em] text-muted">
+      <p className="mb-4 font-mono text-xs uppercase tracking-[0.08em] text-muted">
         {label}
       </p>
       <ul className="flex flex-col gap-2">

@@ -24,7 +24,7 @@ export function ProjectCardActive({ project }: { project: ActiveProject }) {
           {project.categories.map((c) => (
             <span
               key={c.label}
-              className={`rounded-[2px] border px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] ${toneClass[c.tone]}`}
+              className={`rounded-[2px] border px-1.5 py-0.5 font-mono text-[11px] uppercase tracking-[0.08em] ${toneClass[c.tone]}`}
             >
               {c.label}
             </span>

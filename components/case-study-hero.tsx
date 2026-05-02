@@ -25,7 +25,7 @@ export function CaseStudyHero(props: {
       <div className="mx-auto max-w-5xl px-8 py-12">
         <h1 className="text-5xl font-bold tracking-tight md:text-6xl">{props.name}</h1>
         <div className={`mt-4 h-0.5 w-16 ${accentBg[props.accent]}`} />
-        <p className="mt-6 font-mono text-sm uppercase tracking-wider text-muted">
+        <p className="mt-6 font-mono text-xs uppercase tracking-wider text-muted">
           {props.role} · {props.company} · {props.period}
           {props.location && ` · ${props.location}`}
         </p>
