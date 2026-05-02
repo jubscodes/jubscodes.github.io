@@ -7,7 +7,7 @@ export function Hero() {
         {">_"} jubs.studio
         <span className="ml-0 inline-block animate-pulse text-primary">█</span>
       </p>
-      <h1 className="mb-5 text-[64px] font-bold leading-[1.05] tracking-[-0.02em]">
+      <h1 className="mb-5 text-5xl font-bold leading-[1.05] tracking-[-0.02em] sm:text-6xl md:text-[64px]">
         Code with taste.
       </h1>
       <p className="mb-10 max-w-[480px] text-lg text-muted">

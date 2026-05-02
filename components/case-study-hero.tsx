@@ -33,7 +33,7 @@ export function CaseStudyHero(props: {
         className="absolute inset-0 bg-gradient-to-t from-bg from-15% via-bg/55 to-bg/10"
       />
       <Container variant="narrow" className="absolute inset-x-0 bottom-0 py-12">
-        <h1 className="text-5xl font-bold tracking-tight md:text-6xl">
+        <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
           {props.name}
         </h1>
         <div className={`mt-4 h-0.5 w-16 ${accentBg[props.accent]}`} />
