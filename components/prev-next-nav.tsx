@@ -1,17 +1,25 @@
 import Link from "next/link";
 
+type Accent = "primary" | "secondary" | "tertiary";
 type Item = { slug: string; name: string };
 
-export function PrevNextNav({ prev, next }: { prev: Item; next: Item }) {
+const accentHover: Record<Accent, string> = {
+  primary: "group-hover:text-primary",
+  secondary: "group-hover:text-secondary",
+  tertiary: "group-hover:text-tertiary",
+};
+
+export function PrevNextNav({ prev, next, accent }: { prev: Item; next: Item; accent: Accent }) {
+  const hoverCls = `transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${accentHover[accent]}`;
   return (
     <nav className="mx-auto grid max-w-5xl grid-cols-2 gap-6 border-t border-border px-8 py-12">
       <Link href={`/projects/${prev.slug}/`} className="group block">
         <p className="font-mono text-xs uppercase tracking-wider text-muted">◂ Previous case study</p>
-        <p className="mt-2 text-2xl font-medium group-hover:text-secondary">{prev.name}</p>
+        <p className={`mt-2 text-2xl font-medium ${hoverCls}`}>{prev.name}</p>
       </Link>
       <Link href={`/projects/${next.slug}/`} className="group block text-right">
         <p className="font-mono text-xs uppercase tracking-wider text-muted">Next case study ▸</p>
-        <p className="mt-2 text-2xl font-medium group-hover:text-secondary">{next.name}</p>
+        <p className={`mt-2 text-2xl font-medium ${hoverCls}`}>{next.name}</p>
       </Link>
     </nav>
   );

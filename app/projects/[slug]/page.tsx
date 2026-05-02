@@ -47,8 +47,8 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
       <ContentBlock label="Outcome"><p>{c.body.outcome}</p></ContentBlock>
       <ImageStrip images={c.images} />
       <TagList tags={c.tags} accent={c.accent} />
-      <LinkList links={c.links} />
-      <PrevNextNav prev={{ slug: prev.slug, name: prev.name }} next={{ slug: next.slug, name: next.name }} />
+      <LinkList links={c.links} accent={c.accent} />
+      <PrevNextNav prev={{ slug: prev.slug, name: prev.name }} next={{ slug: next.slug, name: next.name }} accent={c.accent} />
     </article>
   );
 }

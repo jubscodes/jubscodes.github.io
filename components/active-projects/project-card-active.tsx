@@ -39,7 +39,7 @@ export function ProjectCardActive({ project }: { project: ActiveProject }) {
             href={project.href}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-8 items-center justify-center rounded-[2px] bg-transparent px-3 text-[13px] font-medium text-fg transition-colors hover:bg-border"
+            className="inline-flex h-8 items-center justify-center rounded-[2px] bg-transparent px-3 text-[13px] font-medium text-fg transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:bg-border"
           >
             Explore
           </a>

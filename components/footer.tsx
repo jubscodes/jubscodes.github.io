@@ -47,7 +47,7 @@ function FooterColumn({
               {...(l.href.startsWith("http")
                 ? { target: "_blank", rel: "noopener noreferrer" }
                 : {})}
-              className={`text-sm text-muted transition-colors ${accentHover[accent]}`}
+              className={`text-sm text-muted transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] ${accentHover[accent]}`}
             >
               {l.label}
             </a>

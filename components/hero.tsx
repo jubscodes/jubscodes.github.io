@@ -14,7 +14,7 @@ export function Hero() {
       <div className="flex flex-wrap items-center gap-4">
         <a
           href="#projects"
-          className="inline-flex h-10 items-center justify-center rounded-[2px] bg-primary px-6 text-sm font-medium text-bg transition-opacity hover:opacity-90 active:scale-[0.98]"
+          className="inline-flex h-10 items-center justify-center rounded-[2px] bg-primary px-6 text-sm font-medium text-bg transition-opacity duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:opacity-90 active:scale-[0.98]"
         >
           View projects
         </a>
