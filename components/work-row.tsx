@@ -42,17 +42,26 @@ export function WorkRow({
 
   const inner = (
     <Container variant="wide">
-      <div className="flex items-center gap-4 py-5">
-        <span
-          className={`font-mono transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:rotate-90 group-focus-within:rotate-90 max-md:rotate-90 ${accentText[accent]}`}
-        >
-          ▸
-        </span>
-        <span className="text-lg font-medium">{item.name}</span>
-        <span className="ml-auto font-mono text-sm text-muted">{item.meta}</span>
+      <div className="flex flex-col gap-1 py-5 md:flex-row md:items-center md:gap-4">
+        <div className="flex items-center gap-4">
+          <span
+            className={`font-mono transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:rotate-90 group-focus-within:rotate-90 max-md:rotate-90 ${accentText[accent]}`}
+          >
+            ▸
+          </span>
+          <span className="text-lg font-medium">{item.name}</span>
+          {isLink && (
+            <span
+              className={`ml-auto font-mono text-xs md:hidden ${accentText[accent]}`}
+            >
+              view →
+            </span>
+          )}
+        </div>
+        <span className="pl-8 font-mono text-sm text-muted md:ml-auto md:pl-0">{item.meta}</span>
         {isLink && (
           <span
-            className={`font-mono text-xs opacity-0 transition-opacity duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:opacity-100 group-focus-within:opacity-100 max-md:opacity-100 ${accentText[accent]}`}
+            className={`hidden font-mono text-xs opacity-0 transition-opacity duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:opacity-100 group-focus-within:opacity-100 md:inline ${accentText[accent]}`}
           >
             view →
           </span>
