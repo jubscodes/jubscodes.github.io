@@ -5,8 +5,8 @@ type: experience
 published: true
 order: 1
 meta: "Builder Residency · Buenos Aires · 2024"
-outcome: Three-month builder residency program. Post-Chainless launch incubation. Built and shipped alongside the global Avalanche builder cohort.
-tags: [residency, crypto, product, latam]
+outcome: Three-month builder residency in Buenos Aires — joined with the Notus team, working alongside the global Avalanche builder cohort.
+tags: [residency, crypto, notus, latam, avalanche]
 links:
   - { label: "Program info", href: "https://avalanche.com/innovation-house", external: true }
 images: []
