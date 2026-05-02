@@ -1,6 +1,8 @@
+import { Container } from "./container";
+
 export function TerminalInstall() {
   return (
-    <section className="mx-auto max-w-[1200px] px-12 pb-20">
+    <Container as="section" variant="wide" className="pb-20">
       <div className="overflow-hidden rounded-[2px] border border-border bg-bg">
         <div className="border-b border-border px-4 py-2 font-mono text-xs text-muted">
           ─ install ─
@@ -37,6 +39,6 @@ export function TerminalInstall() {
           </div>
         </div>
       </div>
-    </section>
+    </Container>
   );
 }

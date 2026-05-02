@@ -1,3 +1,4 @@
+import { Container } from "./container";
 import { SectionDivider } from "./section-divider";
 
 type Accent = "primary" | "secondary" | "tertiary";
@@ -64,7 +65,7 @@ export function Footer() {
     <>
       <SectionDivider />
       <footer className="pt-4 pb-8">
-        <div className="mx-auto max-w-[1200px] px-12">
+        <Container variant="wide">
           <div className="mb-12 grid grid-cols-1 gap-10 md:grid-cols-[1.5fr_1fr_1fr_1fr] md:gap-12">
             <div>
               <p className="font-mono text-[15px] font-medium">jubs.studio</p>
@@ -77,14 +78,14 @@ export function Footer() {
             <FooterColumn label="Selected Work" items={links.selectedWork} accent="secondary" />
             <FooterColumn label="Connect" items={links.connect} accent="tertiary" />
           </div>
-        </div>
+        </Container>
         <div aria-hidden className="h-px w-full bg-border" />
-        <div className="mx-auto max-w-[1200px] px-12 pt-6">
+        <Container variant="wide" className="pt-6">
           <div className="flex flex-col gap-2 font-mono text-xs text-muted md:flex-row md:items-center md:justify-between">
             <span>© {year} Julia Hoffmann · jubs.studio</span>
             <span className="text-muted">{">_"} v0.1.0</span>
           </div>
-        </div>
+        </Container>
       </footer>
     </>
   );

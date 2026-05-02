@@ -1,3 +1,5 @@
+import { Container } from "./container";
+
 export function SectionHeader({
   title,
   id,
@@ -6,8 +8,8 @@ export function SectionHeader({
   id?: string;
 }) {
   return (
-    <header id={id} className="mx-auto mb-8 max-w-[1200px] px-12">
+    <Container as="header" variant="wide" id={id} className="mb-8">
       <h2 className="text-3xl font-bold tracking-tight">{title}</h2>
-    </header>
+    </Container>
   );
 }

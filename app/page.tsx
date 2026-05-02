@@ -1,3 +1,4 @@
+import { Container } from "@/components/container";
 import { Hero } from "@/components/hero";
 import { Manifesto } from "@/components/manifesto";
 import { TerminalInstall } from "@/components/terminal-install";
@@ -20,11 +21,11 @@ export default async function Home() {
       <SectionDivider accent="primary" />
       <section className="py-8">
         <SectionHeader title="Projects" id="projects" />
-        <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-6 px-12 md:grid-cols-2">
+        <Container variant="wide" className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {activeProjects.map((p) => (
             <ProjectCardActive key={p.name} project={p} />
           ))}
-        </div>
+        </Container>
       </section>
 
       <SectionDivider accent="secondary" />

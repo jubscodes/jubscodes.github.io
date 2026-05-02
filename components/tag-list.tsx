@@ -1,3 +1,5 @@
+import { Container } from "./container";
+
 type Accent = "primary" | "secondary" | "tertiary";
 
 const accent: Record<Accent, string> = {
@@ -8,7 +10,7 @@ const accent: Record<Accent, string> = {
 
 export function TagList({ tags, accent: a }: { tags: string[]; accent: Accent }) {
   return (
-    <section className="mx-auto max-w-5xl px-8 py-6">
+    <Container as="section" variant="narrow" className="py-6">
       <div className="flex flex-wrap gap-2">
         {tags.map((t) => (
           <span key={t} className={`rounded-[2px] border px-3 py-1 font-mono text-[11px] uppercase tracking-[0.08em] ${accent[a]}`}>
@@ -16,6 +18,6 @@ export function TagList({ tags, accent: a }: { tags: string[]; accent: Accent })
           </span>
         ))}
       </div>
-    </section>
+    </Container>
   );
 }

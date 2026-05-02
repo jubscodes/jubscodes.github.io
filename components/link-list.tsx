@@ -1,4 +1,5 @@
 import type { Link } from "@/lib/content";
+import { Container } from "./container";
 
 type Accent = "primary" | "secondary" | "tertiary";
 
@@ -11,7 +12,7 @@ const accentHover: Record<Accent, string> = {
 export function LinkList({ links, accent }: { links: Link[]; accent: Accent }) {
   if (links.length === 0) return null;
   return (
-    <section className="mx-auto max-w-5xl px-8 py-6">
+    <Container as="section" variant="narrow" className="py-6">
       <ul className="flex flex-wrap gap-4">
         {links.map((l) => (
           <li key={l.href}>
@@ -26,6 +27,6 @@ export function LinkList({ links, accent }: { links: Link[]; accent: Accent }) {
           </li>
         ))}
       </ul>
-    </section>
+    </Container>
   );
 }

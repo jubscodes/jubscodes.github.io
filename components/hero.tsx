@@ -1,6 +1,8 @@
+import { Container } from "./container";
+
 export function Hero() {
   return (
-    <section className="mx-auto max-w-[1200px] px-12 pt-[120px] pb-20">
+    <Container as="section" variant="wide" className="pt-[120px] pb-20">
       <p className="mb-4 font-mono text-[15px] text-muted">
         {">_"} jubs.studio
         <span className="ml-0 inline-block animate-pulse text-primary">█</span>
@@ -22,6 +24,6 @@ export function Hero() {
           <code>npx get-shit-pretty</code>
         </div>
       </div>
-    </section>
+    </Container>
   );
 }

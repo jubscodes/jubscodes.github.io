@@ -1,7 +1,9 @@
+import { Container } from "./container";
+
 export function WorkList({ children }: { children: React.ReactNode }) {
   return (
-    <div className="mx-auto max-w-5xl border-t border-border px-4">
+    <Container variant="wide" className="border-t border-border">
       {children}
-    </div>
+    </Container>
   );
 }

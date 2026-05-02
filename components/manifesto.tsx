@@ -1,3 +1,5 @@
+import { Container } from "./container";
+
 export function Manifesto() {
   const beliefs = [
     "I believe good design is a system, not a layer.",
@@ -9,7 +11,7 @@ export function Manifesto() {
     "Bland is a choice. I chose different.",
   ];
   return (
-    <section className="mx-auto max-w-[1200px] px-12 py-20">
+    <Container as="section" variant="wide" className="py-20">
       <p className="mb-10 font-mono text-xs uppercase tracking-[0.08em] text-muted">
         Manifesto
       </p>
@@ -18,6 +20,6 @@ export function Manifesto() {
           <p key={i} className="text-lg leading-relaxed text-fg">{b}</p>
         ))}
       </div>
-    </section>
+    </Container>
   );
 }

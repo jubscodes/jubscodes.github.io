@@ -1,10 +1,11 @@
 import Image from "next/image";
 import type { Image as ImgT } from "@/lib/content";
+import { Container } from "./container";
 
 export function ImageStrip({ images }: { images: ImgT[] }) {
   if (images.length === 0) return null;
   return (
-    <section className="mx-auto max-w-5xl px-8 py-10">
+    <Container as="section" variant="narrow" className="py-10">
       <div className="grid gap-4 md:grid-cols-3">
         {images.map((img, i) => (
           <div key={i} className="relative aspect-video overflow-hidden border border-border bg-surface">
@@ -18,6 +19,6 @@ export function ImageStrip({ images }: { images: ImgT[] }) {
           </div>
         ))}
       </div>
-    </section>
+    </Container>
   );
 }
