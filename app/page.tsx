@@ -2,19 +2,12 @@ import { Hero } from "@/components/hero";
 import { Manifesto } from "@/components/manifesto";
 import { TerminalInstall } from "@/components/terminal-install";
 import { SectionHeader } from "@/components/section-header";
+import { SectionDivider } from "@/components/section-divider";
 import { ProjectCardActive } from "@/components/active-projects/project-card-active";
 import { WorkRow } from "@/components/work-row";
 import { WorkList } from "@/components/work-list";
 import { activeProjects } from "@/content/active-projects";
 import { getCaseStudies, getExperiences } from "@/lib/content";
-
-function Separator() {
-  return (
-    <div className="mx-auto max-w-[1200px] px-12">
-      <hr className="my-16 border-0 border-t border-border" />
-    </div>
-  );
-}
 
 export default async function Home() {
   const caseStudies = await getCaseStudies();
@@ -23,10 +16,10 @@ export default async function Home() {
   return (
     <main className="pt-16">
       <Hero />
-      <Separator />
 
+      <SectionDivider accent="primary" />
       <section className="py-8">
-        <SectionHeader title="Projects" accent="primary" id="projects" />
+        <SectionHeader title="Projects" id="projects" />
         <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-6 px-12 md:grid-cols-2">
           {activeProjects.map((p) => (
             <ProjectCardActive key={p.name} project={p} />
@@ -34,10 +27,9 @@ export default async function Home() {
         </div>
       </section>
 
-      <Separator />
-
+      <SectionDivider accent="secondary" />
       <section className="py-8">
-        <SectionHeader title="Selected Work" accent="secondary" id="selected-work" />
+        <SectionHeader title="Selected Work" id="selected-work" />
         <WorkList>
           {caseStudies.map((c) => (
             <WorkRow
@@ -58,10 +50,9 @@ export default async function Home() {
         </WorkList>
       </section>
 
-      <Separator />
-
+      <SectionDivider accent="tertiary" />
       <section className="py-8">
-        <SectionHeader title="Experiences" accent="tertiary" id="experiences" />
+        <SectionHeader title="Experiences" id="experiences" />
         <WorkList>
           {experiences.map((e) => (
             <WorkRow
@@ -82,9 +73,9 @@ export default async function Home() {
         </WorkList>
       </section>
 
-      <Separator />
+      <SectionDivider />
       <Manifesto />
-      <Separator />
+      <SectionDivider />
       <TerminalInstall />
     </main>
   );
