@@ -200,7 +200,7 @@ describe("real content loads", () => {
     const { getCaseStudies } = await import("@/lib/content");
     const cs = await getCaseStudies();
     expect(cs.length).toBe(3);
-    expect(cs.map((c) => c.slug).sort()).toEqual(["heimdall", "notus", "shippit"]);
+    expect(cs.map((c) => c.slug).sort()).toEqual(["chainless", "heimdall", "shippit"]);
   });
 
   it("getExperiences parses 4 experiences", async () => {

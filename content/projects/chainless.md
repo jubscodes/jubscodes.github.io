@@ -1,6 +1,6 @@
 ---
-slug: notus
-name: Notus / Chainless
+slug: chainless
+name: Chainless
 type: case-study
 published: true
 order: 2
@@ -14,12 +14,12 @@ location: São Paulo
 accent: secondary
 hero_variant: cover
 image_layout: strip
-cover: /images/projects/notus/cover.png
+cover: /images/projects/chainless/cover.png
 images:
-  - { src: /images/projects/notus/app-home.png, alt: Chainless app home }
-  - { src: /images/projects/notus/kyc-flow.png, alt: Chainless KYC flow }
-  - { src: /images/projects/notus/transaction.png, alt: Chainless transaction screen }
-  - { src: /images/projects/notus/web-landing.png, alt: Chainless web landing }
+  - { src: /images/projects/chainless/app-home.png, alt: Chainless app home }
+  - { src: /images/projects/chainless/kyc-flow.png, alt: Chainless KYC flow }
+  - { src: /images/projects/chainless/transaction.png, alt: Chainless transaction screen }
+  - { src: /images/projects/chainless/web-landing.png, alt: Chainless web landing }
 outcome: Cofounded Notus and led product + design for Chainless, a Brazilian crypto fintech. Designed KYC and transaction UX. Launched at Blockchain Rio. Managed the design team.
 tags: [product, fintech, crypto, leadership, kyc]
 links:

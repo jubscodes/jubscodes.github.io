@@ -86,11 +86,11 @@ export const structuredData = {
     },
     {
       "@type": "SoftwareApplication",
-      "name": "Notus / Chainless",
+      "name": "Chainless",
       "applicationCategory": "FinanceApplication",
       "description":
         "Cofounded Notus and led product + design for Chainless, a Brazilian crypto fintech. Designed KYC and transaction UX. Launched at Blockchain Rio. Managed the design team.",
-      "url": "https://jubs.studio/projects/notus/",
+      "url": "https://jubs.studio/projects/chainless/",
       "creator": { "@id": "https://jubs.studio/#person" },
       "operatingSystem": "Any",
     },

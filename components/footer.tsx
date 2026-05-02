@@ -16,7 +16,7 @@ const links = {
   ],
   selectedWork: [
     { label: "Shippit", href: "/projects/shippit/" },
-    { label: "Notus / Chainless", href: "/projects/notus/" },
+    { label: "Chainless", href: "/projects/chainless/" },
     { label: "Heimdall", href: "/projects/heimdall/" },
   ],
   connect: [

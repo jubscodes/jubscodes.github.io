@@ -24,9 +24,9 @@ Design engineering for AI coding tools. A complete design pipeline that runs in 
 Built front-end for an agentic AI platform. Authored AI rules, refactored the codebase, established a design system that scales with the product.
 URL: https://jubs.studio/projects/shippit/
 
-### Notus / Chainless (2023 — 2024, Cofounder · Product & Design)
+### Chainless (2023 — 2024, Cofounder · Product & Design at Notus)
 Cofounded Notus and led product + design for Chainless, a Brazilian crypto fintech. Designed KYC and transaction UX. Launched at Blockchain Rio. Managed the design team.
-URL: https://jubs.studio/projects/notus/
+URL: https://jubs.studio/projects/chainless/
 
 ### Heimdall (2022, Solo Designer)
 Sole designer for a crypto data platform. Built a complete design system in Figma — typography, color, components — aligned with Tailwind for dev handoff.
