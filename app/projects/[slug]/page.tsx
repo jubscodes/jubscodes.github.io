@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CaseStudyHero } from "@/components/case-study-hero";
 import { ContentBlock } from "@/components/content-block";
@@ -6,19 +7,42 @@ import { TagList } from "@/components/tag-list";
 import { LinkList } from "@/components/link-list";
 import { PrevNextNav } from "@/components/prev-next-nav";
 import { getCaseStudies, getCaseStudy } from "@/lib/content";
+import { caseStudyBreadcrumb } from "@/lib/structured-data";
+
+const SITE_URL = "https://jubs.studio";
 
 export async function generateStaticParams() {
   const all = await getCaseStudies();
   return all.map((c) => ({ slug: c.slug }));
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const c = await getCaseStudy(slug);
   if (!c) return { title: "Not found" };
+  const url = `${SITE_URL}/projects/${c.slug}/`;
+  const title = `${c.name} · ${c.role} · jubs.studio`;
+  const ogTitle = `${c.name} — ${c.role}`;
   return {
-    title: `${c.name} · ${c.role} · jubs.studio`,
+    title,
     description: c.outcome,
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      url,
+      siteName: "jubs.studio",
+      title: ogTitle,
+      description: c.outcome,
+      images: [{ url: c.cover, width: 1200, height: 630, alt: `${c.name} cover` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      site: "@hoffz_eth",
+      creator: "@hoffz_eth",
+      title: ogTitle,
+      description: c.outcome,
+      images: [c.cover],
+    },
   };
 }
 
@@ -33,6 +57,12 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
 
   return (
     <article>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(caseStudyBreadcrumb(c.slug, c.name)),
+        }}
+      />
       <CaseStudyHero
         cover={c.cover}
         name={c.name}

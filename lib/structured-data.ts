@@ -1,3 +1,15 @@
+export function caseStudyBreadcrumb(slug: string, name: string) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "jubs.studio", item: "https://jubs.studio" },
+      { "@type": "ListItem", position: 2, name: "Selected Work", item: "https://jubs.studio#selected-work" },
+      { "@type": "ListItem", position: 3, name, item: `https://jubs.studio/projects/${slug}/` },
+    ],
+  };
+}
+
 export const structuredData = {
   "@context": "https://schema.org",
   "@graph": [

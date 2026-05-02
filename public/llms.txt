@@ -2,6 +2,19 @@
 
 > Design engineering solo studio by Julia Hoffmann Buratto (@jubscodes). Opinionated UI kits and AI design tools for developers and agents.
 
+## Hiring context
+
+Julia is exploring Design Engineer roles. Core skills:
+
+- Design systems — Figma → Tailwind handoff, shadcn ecosystem, token-based architecture
+- Front-end engineering — React 19, Next.js 16, TypeScript, static export
+- AI coding tools — rules files for Claude Code/Cursor agents, design+build inside the IDE
+- Onchain UX — KYC flows, transaction design, fintech compliance UX
+- Product design + leadership — cofounded Notus, led product+design through launch
+- Technical writing — design specs, AI rules, contribution guides
+
+Open to remote / São Paulo. Reach out via LinkedIn or X.
+
 ## About
 
 jubs.studio is a design engineering solo studio focused on building opinionated developer tools that bridge design and code. Founded by Julia Hoffmann Buratto, a design engineer who builds UI component libraries and AI-powered design tooling.
@@ -31,6 +44,13 @@ URL: https://jubs.studio/projects/chainless/
 ### Heimdall (2022, Solo Designer)
 Sole designer for a crypto data platform. Built a complete design system in Figma — typography, color, components — aligned with Tailwind for dev handoff.
 URL: https://jubs.studio/projects/heimdall/
+
+## Recognition
+
+- Showcase — Cursor Coffee 2025 (showcased a platform designed and built end-to-end inside Cursor)
+- Builder Residency — Avalanche Innovation House, Buenos Aires 2024
+- Best LayerZero — ETHGlobal Hackathon 2023
+- 1st Place — Aurora-sponsored Hackathon 2022
 
 ## Links
 
