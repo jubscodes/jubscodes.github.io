@@ -1,5 +1,6 @@
 import Image from "next/image";
 import NextLink from "next/link";
+import { Container } from "./container";
 
 type Accent = "primary" | "secondary" | "tertiary";
 
@@ -37,11 +38,11 @@ export function WorkRow({
   accent: Accent;
 }) {
   const isLink = variant === "case-study";
-  const className = `group block border-b border-border outline-none transition-colors duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${accentBgHover[accent]}`;
+  const className = `group block w-full border-b border-border outline-none transition-colors duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${accentBgHover[accent]}`;
 
   const inner = (
-    <>
-      <div className="flex items-center gap-4 px-4 py-5">
+    <Container variant="wide">
+      <div className="flex items-center gap-4 py-5">
         <span
           className={`font-mono transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:rotate-90 group-focus-within:rotate-90 max-md:rotate-90 ${accentText[accent]}`}
         >
@@ -59,7 +60,7 @@ export function WorkRow({
       </div>
 
       <div className="max-h-0 overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:max-h-[400px] group-focus-within:max-h-[400px] max-md:max-h-[400px]">
-        <div className="grid gap-6 px-8 pb-6 md:grid-cols-2">
+        <div className="grid gap-6 pb-6 md:grid-cols-2">
           {item.cover && (
             <div className="relative aspect-video border border-border bg-surface">
               <Image
@@ -102,7 +103,7 @@ export function WorkRow({
           </div>
         </div>
       </div>
-    </>
+    </Container>
   );
 
   if (isLink) {
