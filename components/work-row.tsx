@@ -37,13 +37,13 @@ export function WorkRow({
   accent: Accent;
 }) {
   const isLink = variant === "case-study";
-  const className = `group block border-b border-border outline-none transition-colors ${accentBgHover[accent]}`;
+  const className = `group block border-b border-border outline-none transition-colors duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${accentBgHover[accent]}`;
 
   const inner = (
     <>
       <div className="flex items-center gap-4 px-4 py-5">
         <span
-          className={`font-mono transition-transform duration-300 group-hover:rotate-90 group-focus-within:rotate-90 max-md:rotate-90 ${accentText[accent]}`}
+          className={`font-mono transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:rotate-90 group-focus-within:rotate-90 max-md:rotate-90 ${accentText[accent]}`}
         >
           ▸
         </span>
@@ -51,14 +51,14 @@ export function WorkRow({
         <span className="ml-auto font-mono text-sm text-muted">{item.meta}</span>
         {isLink && (
           <span
-            className={`font-mono text-xs opacity-0 transition-opacity group-hover:opacity-100 group-focus-within:opacity-100 max-md:opacity-100 ${accentText[accent]}`}
+            className={`font-mono text-xs opacity-0 transition-opacity duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:opacity-100 group-focus-within:opacity-100 max-md:opacity-100 ${accentText[accent]}`}
           >
             view →
           </span>
         )}
       </div>
 
-      <div className="max-h-0 overflow-hidden transition-all duration-300 ease-[cubic-bezier(0.2,0.6,0.2,1)] group-hover:max-h-[400px] group-focus-within:max-h-[400px] max-md:max-h-[400px]">
+      <div className="max-h-0 overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:max-h-[400px] group-focus-within:max-h-[400px] max-md:max-h-[400px]">
         <div className="grid gap-6 px-8 pb-6 md:grid-cols-2">
           {item.cover && (
             <div className="relative aspect-video border border-border bg-surface">
