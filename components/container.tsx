@@ -9,8 +9,8 @@ type ContainerProps = {
 };
 
 const variantClass: Record<NonNullable<ContainerProps["variant"]>, string> = {
-  wide: "mx-auto max-w-[1200px] px-12",
-  narrow: "mx-auto max-w-[960px] px-8",
+  wide: "mx-auto max-w-[1200px] px-6 sm:px-8 md:px-12",
+  narrow: "mx-auto max-w-[960px] px-6 sm:px-8",
 };
 
 export function Container({
