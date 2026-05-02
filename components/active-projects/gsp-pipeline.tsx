@@ -33,7 +33,7 @@ export function GspPipeline() {
         </div>
         <div className="w-4 pl-1 text-center text-[10px] text-border-hover">↓</div>
 
-        <div className="flex items-center gap-2 px-2 py-1 text-border-hover">
+        <div className="flex items-center gap-2 px-2 py-1 text-muted">
           <span className="w-4 flex-shrink-0 text-center">○</span>
           <span className="flex-1">/gsp:build</span>
         </div>

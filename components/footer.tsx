@@ -82,7 +82,7 @@ export function Footer() {
         <div className="mx-auto max-w-[1200px] px-12 pt-6">
           <div className="flex flex-col gap-2 font-mono text-xs text-muted md:flex-row md:items-center md:justify-between">
             <span>© {year} Julia Hoffmann · jubs.studio</span>
-            <span className="text-border-hover">{">_"} v0.1.0</span>
+            <span className="text-muted">{">_"} v0.1.0</span>
           </div>
         </div>
       </footer>
