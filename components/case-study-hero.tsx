@@ -19,7 +19,7 @@ export function CaseStudyHero(props: {
   accent: Accent;
 }) {
   return (
-    <header className="border-b border-border">
+    <header>
       <div className="relative aspect-[16/9] w-full bg-surface">
         <Image src={props.cover} alt={`${props.name} cover`} fill className="object-cover" priority sizes="100vw" />
       </div>
