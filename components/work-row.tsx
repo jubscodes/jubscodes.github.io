@@ -68,8 +68,8 @@ export function WorkRow({
         )}
       </div>
 
-      <div className="max-h-0 overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:max-h-[400px] group-focus-within:max-h-[400px] max-md:max-h-[400px]">
-        <div className="grid gap-6 pb-6 md:grid-cols-2">
+      <div className="max-h-0 overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:max-h-[480px] group-focus-within:max-h-[480px] max-md:max-h-[480px]">
+        <div className="grid gap-6 pb-8 md:grid-cols-2 md:pb-6">
           {item.cover && (
             <div className="relative aspect-video border border-border bg-surface">
               <Image
@@ -83,11 +83,11 @@ export function WorkRow({
           )}
           <div className="space-y-4">
             <p className="text-base leading-relaxed">{item.outcome}</p>
-            <div className="flex flex-wrap gap-1.5">
+            <div className="flex flex-wrap gap-x-2 gap-y-2">
               {item.tags.map((t) => (
                 <span
                   key={t}
-                  className="rounded-[2px] border border-border px-1.5 py-0.5 font-mono text-[11px] uppercase tracking-[0.08em] text-muted"
+                  className="rounded-[2px] border border-border px-2 py-0.5 font-mono text-[11px] uppercase tracking-[0.08em] text-muted"
                 >
                   {t}
                 </span>
