@@ -19,23 +19,21 @@ export function ProjectCardActive({ project }: { project: ActiveProject }) {
 
       {project.preview}
 
-      <div className="flex flex-col gap-3 p-6">
-        <div className="flex items-center justify-between">
-          <h3 className="font-mono text-[11px] uppercase tracking-[0.08em] text-muted">
-            {project.name}
-          </h3>
-          <span className="flex items-center gap-1.5">
-            {project.categories.map((c) => (
-              <span
-                key={c.label}
-                className={`rounded-[2px] border px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] ${toneClass[c.tone]}`}
-              >
-                {c.label}
-              </span>
-            ))}
-          </span>
+      <div className="flex flex-col gap-4 p-6">
+        <div className="flex items-center gap-1.5">
+          {project.categories.map((c) => (
+            <span
+              key={c.label}
+              className={`rounded-[2px] border px-1.5 py-0.5 font-mono text-[10px] uppercase tracking-[0.1em] ${toneClass[c.tone]}`}
+            >
+              {c.label}
+            </span>
+          ))}
         </div>
-        <p className="text-sm text-muted">{project.description}</p>
+        <h3 className="text-2xl font-semibold tracking-tight text-fg">
+          {project.name}
+        </h3>
+        <p className="text-sm leading-relaxed text-muted">{project.description}</p>
         <div className="mt-1 flex items-center gap-3">
           <a
             href={project.href}
