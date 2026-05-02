@@ -2,7 +2,7 @@ export function GspPipeline() {
   return (
     <div
       aria-hidden="true"
-      className="flex min-h-[200px] items-center justify-center border-b border-border bg-bg p-8"
+      className="flex h-[240px] items-center justify-center border-b border-border bg-bg p-8"
     >
       <div className="flex w-full max-w-[320px] flex-col gap-1 font-mono text-[11px] text-muted">
         <div className="flex items-center gap-2 px-2 py-1 text-fg">

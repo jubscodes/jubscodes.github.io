@@ -2,7 +2,7 @@ export function CypherCnPreview() {
   return (
     <div
       aria-hidden="true"
-      className="relative flex min-h-[200px] flex-wrap items-center justify-center gap-3 border-b border-border bg-bg p-8"
+      className="relative flex h-[240px] flex-wrap items-center justify-center gap-3 border-b border-border bg-bg p-8"
     >
       {/* CRT scanlines overlay */}
       <div
