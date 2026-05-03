@@ -52,7 +52,7 @@ export default async function AboutPage() {
         </h1>
         <div className="mt-4 h-0.5 w-16 bg-secondary" />
         <p className="mt-6 font-mono text-xs uppercase tracking-wider text-muted">
-          Design Engineer · São Paulo · Open to roles
+          Design Engineer · Currently at Shippit · São Paulo
         </p>
       </Container>
 
@@ -77,9 +77,10 @@ export default async function AboutPage() {
         </p>
       </ContentBlock>
 
-      <ContentBlock label="Available for">
+      <ContentBlock label="Get in touch">
         <p>
-          Design Engineer roles. Remote or São Paulo. Reach out via{" "}
+          Open to interesting conversations — collaboration, technical questions, or just
+          trading notes on design engineering and AI tooling. Reach out via{" "}
           <a
             href="https://www.linkedin.com/in/julia-hoffmann-/"
             target="_blank"

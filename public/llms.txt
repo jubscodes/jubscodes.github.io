@@ -2,9 +2,9 @@
 
 > Design engineering solo studio by Julia Hoffmann Buratto (@jubscodes). Opinionated UI kits and AI design tools for developers and agents.
 
-## Hiring context
+## Skills
 
-Julia is exploring Design Engineer roles. Core skills:
+Currently building front-end + design systems at Shippit. Core skills:
 
 - Design systems — Figma → Tailwind handoff, shadcn ecosystem, token-based architecture
 - Front-end engineering — React 19, Next.js 16, TypeScript, static export
@@ -13,7 +13,7 @@ Julia is exploring Design Engineer roles. Core skills:
 - Product design + leadership — cofounded Notus, led product+design through launch
 - Technical writing — design specs, AI rules, contribution guides
 
-Open to remote / São Paulo. Reach out via LinkedIn or X.
+Reach out for collaboration, technical questions, or trading notes via LinkedIn or X.
 
 ## About
 
