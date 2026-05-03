@@ -52,7 +52,7 @@ export default async function AboutPage() {
         </h1>
         <div className="mt-4 h-0.5 w-16 bg-secondary" />
         <p className="mt-6 font-mono text-xs uppercase tracking-wider text-muted">
-          Design Engineer · Currently at Shippit · São Paulo
+          Design Engineer · Currently at Shippit · Florianópolis
         </p>
       </Container>
 
