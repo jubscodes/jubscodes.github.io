@@ -6,9 +6,9 @@ published: true
 order: 3
 role: Solo Designer
 company: Heimdall
-period: 2022
-start_date: 2022-01
-end_date: 2022-12
+period: 2022 — 2023
+start_date: 2022-10
+end_date: 2023-03
 location: Remote
 accent: secondary
 hero_variant: cover

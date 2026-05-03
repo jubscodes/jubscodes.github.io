@@ -5,7 +5,7 @@ type: experience
 published: true
 order: 4
 meta: "Hackathon Win · 2022"
-outcome: Designed and presented AnyDAO at ETHGlobal — a cross-chain governance voting protocol that lets DAO members vote across multiple chains. Won the Best LayerZero project award.
+outcome: Designed AnyDAO — a cross-chain governance protocol with a voting demo for multichain DAOs — at the Avalanche Summit Hackathon (Encode Club) in Barcelona. Branding, design kit, pitch. Won Best LayerZero among 56 projects.
 tags: [hackathon, cross-chain, governance, dao, layerzero]
 links: []
 images: []

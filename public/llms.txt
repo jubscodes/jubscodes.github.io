@@ -37,20 +37,20 @@ Design engineering for AI coding tools. A complete design pipeline that runs in 
 Built front-end for an agentic AI platform. Authored AI rules, refactored the codebase, established a design system that scales with the product.
 URL: https://jubs.studio/projects/shippit/
 
-### Chainless (2023 — 2024, Cofounder · Product & Design at Notus)
+### Chainless (2023 — 2025, Cofounder · Product & Design at Notus)
 Cofounded Notus and led product + design for Chainless, a Brazilian crypto fintech. Designed KYC and transaction UX. Launched at Blockchain Rio. Managed the design team.
 URL: https://jubs.studio/projects/chainless/
 
-### Heimdall (2022, Solo Designer)
+### Heimdall (2022 — 2023, Solo Designer)
 Sole designer for a crypto data platform. Built a complete design system in Figma — typography, color, components — aligned with Tailwind for dev handoff.
 URL: https://jubs.studio/projects/heimdall/
 
 ## Recognition
 
-- Showcase — Cursor Coffee 2025 — showcased a platform designed and built end-to-end inside Cursor
+- Showcase — Cursor Coffee, Florianópolis 2026 — showcased projects designed and built end-to-end inside Cursor
 - Builder Residency — Avalanche Innovation House, Buenos Aires 2024 — three-month residency with the Notus team
-- 1st Place — Aurora-sponsored Hackathon 2023 — generative NFT collection with ticket-to-mint UX
-- Best LayerZero — ETHGlobal Hackathon 2022 — AnyDAO, a cross-chain governance voting protocol
+- 1st Place (Aurora track) — ETH Samba Hackathon 2023 — The Gens, a generative NFT collection with ticket-to-mint UX
+- Best LayerZero — Avalanche Summit Hackathon (Encode Club), Barcelona 2022 — AnyDAO, a cross-chain governance protocol
 
 ## Links
 

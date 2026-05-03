@@ -7,9 +7,9 @@ order: 2
 role: Cofounder · Product & Design
 company: Notus
 company_url: https://notus.team
-period: 2023 — 2024
+period: 2023 — 2025
 start_date: 2023-01
-end_date: 2024-09
+end_date: 2025-01
 location: São Paulo
 accent: secondary
 hero_variant: cover
