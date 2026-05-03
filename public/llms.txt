@@ -46,7 +46,7 @@ Sole designer for a crypto data platform. Built a complete design system in Figm
 URL: https://jubs.studio/projects/heimdall/
 
 ### Luxy (2021 — 2022, Cofounder · Project Leader)
-First startup. Multichain NFT marketplace and creator tools on Syscoin. Led product vision, team, fundraising, and launch. The token didn't perform; product never found PMF. Foundation everything since has been built on.
+First startup. Multichain NFT marketplace and creator tools on Syscoin. Led product vision, team, fundraising, and launch. Token launch didn't perform; product never found PMF. Foundational learning that shaped everything since.
 URL: https://jubs.studio/projects/luxy/
 
 ## Recognition

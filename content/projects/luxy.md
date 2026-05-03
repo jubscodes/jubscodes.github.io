@@ -16,7 +16,7 @@ hero_variant: cover
 image_layout: strip
 cover: /images/projects/luxy/cover.png
 images: []
-outcome: Cofounded Luxy — a multichain NFT marketplace and creator tools on Syscoin. My first startup — led product vision, a development team, fundraising, and launch. The token didn't perform; the product never found PMF. Taught me what tokens can't fix and what burnout costs.
+outcome: Cofounded Luxy — a multichain NFT marketplace and creator tools on Syscoin. My first startup — led product vision, a development team, fundraising, and launch. Token launch didn't perform; product never found PMF. Foundational learning that shaped everything since.
 tags: [nft, marketplace, syscoin, fundraising, founder, learning]
 links:
   - { label: "luxy.io", href: "https://luxy.io", external: true }
@@ -30,4 +30,4 @@ Luxy was my first startup — a multichain NFT marketplace and creator tools for
 Set product vision and strategy. Led the development team and designers across daily standups and weekly stakeholder calls. Built Figma prototypes for the marketplace and creator tools — mint, list, manage collections. Authored the pitch deck that secured Luxy's fundraising round. Drove the brand identity end-to-end. Coordinated Pollum's engineering team through launch.
 
 ## Outcome
-Solid project leadership experience: led product vision, a development team, fundraising, and launch. The token launch didn't perform; the product never found product-market fit; I burned out. First end-to-end startup arc — taught me what tokens can't fix, what crunching costs, and when stepping back is the right call. Foundation everything since has been built on.
+Solid project leadership experience — led product vision, a development team, fundraising, and launch. The token launch didn't perform; the product never found product-market fit. First end-to-end startup arc taught me what fundraising can do, what tokens can't, and how to lead through a difficult product cycle. Foundation everything since has been built on.
