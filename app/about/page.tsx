@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import { Container } from "@/components/container";
 import { ContentBlock } from "@/components/content-block";
 import { SectionDivider } from "@/components/section-divider";
+import { SkillRow } from "@/components/skill-row";
 import { getExperiences } from "@/lib/content";
+import { skills } from "@/content/skills";
 
 const SITE_URL = "https://jubs.studio";
 const PAGE_URL = `${SITE_URL}/about/`;
@@ -101,6 +103,18 @@ export default async function AboutPage() {
           .
         </p>
       </ContentBlock>
+
+      <SectionDivider />
+
+      <Container as="section" variant="narrow" className="pt-12 pb-6">
+        <p className="font-mono text-xs uppercase tracking-[0.08em] text-muted">
+          Skills
+        </p>
+      </Container>
+      <div aria-hidden className="h-px w-full bg-border" />
+      {skills.map((s) => (
+        <SkillRow key={s.slug} skill={s} />
+      ))}
 
       <SectionDivider />
 
