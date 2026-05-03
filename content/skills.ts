@@ -61,6 +61,31 @@ export const skills: Skill[] = [
     ],
   },
   {
+    slug: "blockchain",
+    name: "Blockchain",
+    years: 5,
+    projects: [
+      { name: "BWB Tokenization (real estate · EVM)", period: "2025—" },
+      { name: "ETH Global · Onchain Agent on Base", period: "2025" },
+      { name: "Chainless (PIX + onchain transactions)", href: "/projects/chainless/", period: "2023—25" },
+      { name: "Notus Labs (multichain infra)", period: "2023—25" },
+      { name: "The Gens (Aurora · NEAR)", period: "2023" },
+      { name: "AnyDAO (LayerZero cross-chain)", period: "2022" },
+      { name: "Heimdall (crypto data platform)", href: "/projects/heimdall/", period: "2022—23" },
+      { name: "Luxy (Syscoin NFT marketplace)", href: "/projects/luxy/", period: "2021—22" },
+    ],
+  },
+  {
+    slug: "account-abstraction",
+    name: "Account Abstraction",
+    years: 3,
+    projects: [
+      { name: "BWB Tokenization (Privy embedded wallets)", period: "2025—" },
+      { name: "Notus API (smart account infra)", period: "2024—25" },
+      { name: "Chainless (gasless onchain UX via Notus)", href: "/projects/chainless/", period: "2023—25" },
+    ],
+  },
+  {
     slug: "product-leadership",
     name: "Product leadership",
     years: 5,
