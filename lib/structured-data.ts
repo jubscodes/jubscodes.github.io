@@ -20,6 +20,7 @@ export const structuredData = {
       "alternateName": "jubscodes",
       "jobTitle": "Design Engineer",
       "url": "https://jubs.studio",
+      "mainEntityOfPage": "https://jubs.studio/about/",
       "sameAs": [
         "https://github.com/jubscodes",
         "https://x.com/hoffz_eth",

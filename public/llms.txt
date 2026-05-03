@@ -55,6 +55,7 @@ URL: https://jubs.studio/projects/heimdall/
 ## Links
 
 - Website: https://jubs.studio
+- About: https://jubs.studio/about/
 - GitHub: https://github.com/jubscodes
 - X: https://x.com/hoffz_eth
 - LinkedIn: https://www.linkedin.com/in/julia-hoffmann-/

@@ -6,6 +6,12 @@ export function Nav() {
       <Link href="/" className="font-mono text-[15px] font-medium tracking-tight transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:text-primary">
         jubs.studio
       </Link>
+      <Link
+        href="/about/"
+        className="ml-8 text-sm text-muted transition-colors duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:text-fg"
+      >
+        about
+      </Link>
       <div className="flex-1" />
       <div className="flex items-center gap-6 text-sm text-muted">
         <a
