@@ -117,5 +117,15 @@ export const structuredData = {
       "creator": { "@id": "https://jubs.studio/#person" },
       "operatingSystem": "Any",
     },
+    {
+      "@type": "SoftwareApplication",
+      "name": "Luxy",
+      "applicationCategory": "BusinessApplication",
+      "description":
+        "Cofounded Luxy — a multichain NFT marketplace and creator tools on Syscoin. Led product vision, team, fundraising, and launch.",
+      "url": "https://jubs.studio/projects/luxy/",
+      "creator": { "@id": "https://jubs.studio/#person" },
+      "operatingSystem": "Any",
+    },
   ],
 };

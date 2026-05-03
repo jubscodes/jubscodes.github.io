@@ -50,23 +50,25 @@ export const skills: Skill[] = [
   {
     slug: "onchain-ux",
     name: "Onchain UX",
-    years: 4,
+    years: 5,
     projects: [
       { name: "BWB Tokenization (real estate)", period: "2025—" },
       { name: "Chainless KYC + PIX/onchain", href: "/projects/chainless/", period: "2023—25" },
       { name: "The Gens (Aurora generative NFT)", period: "2023" },
       { name: "AnyDAO (LayerZero cross-chain)", period: "2022" },
       { name: "Heimdall (data viz)", href: "/projects/heimdall/", period: "2022—23" },
+      { name: "Luxy (Syscoin NFT marketplace)", href: "/projects/luxy/", period: "2021—22" },
     ],
   },
   {
     slug: "product-leadership",
     name: "Product leadership",
-    years: 3,
+    years: 5,
     projects: [
       { name: "Notus Labs (Cofounder · Operations & Product)", period: "2023—25" },
       { name: "Chainless (Product + design lead)", href: "/projects/chainless/", period: "2023—25" },
       { name: "Florianópolis Urban Planning Platform", period: "2023" },
+      { name: "Luxy (Cofounder · Project Leader)", href: "/projects/luxy/", period: "2021—22" },
     ],
   },
   {

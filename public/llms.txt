@@ -45,6 +45,10 @@ URL: https://jubs.studio/projects/chainless/
 Sole designer for a crypto data platform. Built a complete design system in Figma — typography, color, components — aligned with Tailwind for dev handoff.
 URL: https://jubs.studio/projects/heimdall/
 
+### Luxy (2021 — 2022, Cofounder · Project Leader)
+First startup. Multichain NFT marketplace and creator tools on Syscoin. Led product vision, team, fundraising, and launch. The token didn't perform; product never found PMF. Foundation everything since has been built on.
+URL: https://jubs.studio/projects/luxy/
+
 ## Recognition
 
 - Showcase — Cursor Coffee, Florianópolis 2026 — showcased projects designed and built end-to-end inside Cursor

@@ -196,11 +196,11 @@ accent: tertiary
 }
 
 describe("real content loads", () => {
-  it("getCaseStudies parses 3 case studies", async () => {
+  it("getCaseStudies parses 4 case studies", async () => {
     const { getCaseStudies } = await import("@/lib/content");
     const cs = await getCaseStudies();
-    expect(cs.length).toBe(3);
-    expect(cs.map((c) => c.slug).sort()).toEqual(["chainless", "heimdall", "shippit"]);
+    expect(cs.length).toBe(4);
+    expect(cs.map((c) => c.slug).sort()).toEqual(["chainless", "heimdall", "luxy", "shippit"]);
   });
 
   it("getExperiences parses 4 experiences", async () => {

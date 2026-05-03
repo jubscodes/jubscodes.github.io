@@ -18,6 +18,7 @@ const links = {
     { label: "Shippit", href: "/projects/shippit/" },
     { label: "Chainless", href: "/projects/chainless/" },
     { label: "Heimdall", href: "/projects/heimdall/" },
+    { label: "Luxy", href: "/projects/luxy/" },
   ],
   connect: [
     { label: "GitHub", href: "https://github.com/jubscodes" },
