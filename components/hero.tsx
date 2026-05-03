@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <Container as="section" variant="wide" className="pt-[120px] pb-20">
       <p className="mb-4 font-mono text-[15px] text-muted">
-        {">_"} julia hoffmann buratto
+        {">_"} jubs.studio
         <span className="ml-0 inline-block animate-pulse text-primary">█</span>
       </p>
       <h1 className="mb-5 text-5xl font-bold leading-[1.05] tracking-[-0.02em] sm:text-6xl md:text-[64px]">
