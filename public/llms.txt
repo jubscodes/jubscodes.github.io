@@ -49,8 +49,8 @@ URL: https://jubs.studio/projects/heimdall/
 
 - Showcase — Cursor Coffee 2025 — showcased a platform designed and built end-to-end inside Cursor
 - Builder Residency — Avalanche Innovation House, Buenos Aires 2024 — three-month residency with the Notus team
-- Best LayerZero — ETHGlobal Hackathon 2023 — AnyDAO, a cross-chain governance voting protocol
 - 1st Place — Aurora-sponsored Hackathon 2023 — generative NFT collection with ticket-to-mint UX
+- Best LayerZero — ETHGlobal Hackathon 2022 — AnyDAO, a cross-chain governance voting protocol
 
 ## Links
 
