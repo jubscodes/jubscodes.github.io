@@ -19,6 +19,7 @@ export const skills: Skill[] = [
     projects: [
       { name: "Shippit (front-end + system)", href: "/projects/shippit/", period: "2025—" },
       { name: "BWB Tokenization (front-end lead)", period: "2025—" },
+      { name: "Get Shit Pretty (design engineering for AI tools)", period: "2025—" },
       { name: "Learn to Fly (Expo/RN refactor)", period: "2025" },
       { name: "Chainless (Nucleus customization)", href: "/projects/chainless/", period: "2023—24" },
       { name: "Heimdall (Figma → Tailwind)", href: "/projects/heimdall/", period: "2022—23" },
@@ -54,7 +55,7 @@ export const skills: Skill[] = [
     years: 5,
     projects: [
       { name: "BWB Tokenization (real estate)", period: "2025—" },
-      { name: "Chainless KYC + PIX/onchain", href: "/projects/chainless/", period: "2023—25" },
+      { name: "Chainless KYC + PIX/onchain", href: "/projects/chainless/", period: "2023—24" },
       { name: "The Gens (Aurora generative NFT)", period: "2023" },
       { name: "AnyDAO (LayerZero cross-chain)", period: "2022" },
       { name: "Heimdall (data viz)", href: "/projects/heimdall/", period: "2022—23" },
@@ -68,8 +69,8 @@ export const skills: Skill[] = [
     projects: [
       { name: "BWB Tokenization (real estate · EVM)", period: "2025—" },
       { name: "ETH Global · Onchain Agent on Base", period: "2025" },
-      { name: "Chainless (PIX + onchain transactions)", href: "/projects/chainless/", period: "2023—25" },
-      { name: "Notus Labs (multichain infra)", period: "2023—25" },
+      { name: "Chainless (PIX + onchain transactions)", href: "/projects/chainless/", period: "2023—24" },
+      { name: "Notus Labs (multichain infra)", period: "2023—24" },
       { name: "The Gens (Aurora · NEAR)", period: "2023" },
       { name: "AnyDAO (LayerZero cross-chain)", period: "2022" },
       { name: "Heimdall (crypto data platform)", href: "/projects/heimdall/", period: "2022—23" },
@@ -83,7 +84,7 @@ export const skills: Skill[] = [
     projects: [
       { name: "BWB Tokenization (Privy embedded wallets)", period: "2025—" },
       { name: "Notus API (smart account infra)", period: "2024—25" },
-      { name: "Chainless (gasless onchain UX via Notus)", href: "/projects/chainless/", period: "2023—25" },
+      { name: "Chainless (gasless onchain UX via Notus)", href: "/projects/chainless/", period: "2023—24" },
     ],
   },
   {
@@ -91,8 +92,9 @@ export const skills: Skill[] = [
     name: "Product leadership",
     years: 5,
     projects: [
+      { name: "Shippit · BWB Tokenization (product ownership)", href: "/projects/shippit/", period: "2025—" },
       { name: "Notus Labs (Cofounder · Operations & Product)", period: "2023—25" },
-      { name: "Chainless (Product + design lead)", href: "/projects/chainless/", period: "2023—25" },
+      { name: "Chainless (Product + design lead)", href: "/projects/chainless/", period: "2023—24" },
       { name: "Florianópolis Urban Planning Platform", period: "2023" },
       { name: "Luxy (Cofounder · Project Leader)", href: "/projects/luxy/", period: "2021—22" },
     ],
