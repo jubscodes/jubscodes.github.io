@@ -18,6 +18,14 @@ images:
   - { src: /images/projects/heimdall/dashboard.png, alt: Heimdall dashboard }
   - { src: /images/projects/heimdall/components.png, alt: Heimdall components library }
   - { src: /images/projects/heimdall/tokens.png, alt: Heimdall design tokens }
+  - { src: /images/projects/heimdall/6ne1lCIatwedpCMajJhs3rE6SzU.png, alt: Heimdall screen }
+  - { src: /images/projects/heimdall/E8TihsFffEFNh3EFUrNXomIbpw.png, alt: Heimdall screen }
+  - { src: /images/projects/heimdall/IXLpUH5rhKcTeQQ6Raddf5H2IQU.png, alt: Heimdall screen }
+  - { src: /images/projects/heimdall/aFWFyS0TbRQm8RS0SfJiGPuLQs.png, alt: Heimdall screen }
+  - { src: /images/projects/heimdall/lOsJkdHccUthverpTCnb6k6tY.png, alt: Heimdall screen }
+  - { src: /images/projects/heimdall/nCugWkz9ne2vfj4oIsnvLxHmtw.png, alt: Heimdall screen }
+  - { src: /images/projects/heimdall/rf9SP65LWj5DfjvDVT9w2ucSc.png, alt: Heimdall screen }
+  - { src: /images/projects/heimdall/ydAASOgD1UJ3haFm9NG3rMhOxA.png, alt: Heimdall screen }
 outcome: Sole designer for a crypto data platform. Built a complete design system in Figma — typography, color, components — aligned with Tailwind for dev handoff.
 tags: [design-system, figma, tailwind, data-viz, crypto]
 links: []

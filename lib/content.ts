@@ -26,7 +26,7 @@ export type CaseStudy = {
   outcome: string;
   tags: string[];
   links: Link[];
-  body: { context: string; whatIDid: string; outcome: string };
+  body: { context: string; whatIDid: string; outcome: string; deepDive?: string };
 };
 
 export type Experience = {
@@ -111,6 +111,7 @@ async function loadCaseStudies(dir: string): Promise<CaseStudy[]> {
     assertRequired(f, data, REQUIRED_CASE_STUDY_FIELDS);
 
     let context: string, whatIDid: string, outcomeBody: string;
+    let deepDive: string | undefined;
     try {
       context = extractBodySection(content, "Context");
       whatIDid = extractBodySection(content, "What I did");
@@ -118,11 +119,16 @@ async function loadCaseStudies(dir: string): Promise<CaseStudy[]> {
     } catch (e) {
       throw new Error(`${f}: ${(e as Error).message}`);
     }
+    try {
+      deepDive = extractBodySection(content, "Deep Dive");
+    } catch {
+      deepDive = undefined;
+    }
 
     items.push({
       ...(data as Omit<CaseStudy, "type" | "body">),
       type: "case-study",
-      body: { context, whatIDid, outcome: outcomeBody },
+      body: { context, whatIDid, outcome: outcomeBody, deepDive },
     });
   }
 

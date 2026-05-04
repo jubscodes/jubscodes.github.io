@@ -20,19 +20,61 @@ images:
   - { src: /images/projects/chainless/kyc-flow.png, alt: Chainless KYC flow }
   - { src: /images/projects/chainless/transaction.png, alt: Chainless transaction screen }
   - { src: /images/projects/chainless/web-landing.png, alt: Chainless web landing }
+  - { src: /images/projects/chainless/0gwnxEhHdcp54ZBOYAcaCM972I.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/9hKw2JBx5uB1Gtn1e3ZzH03Hems.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/BK5emZZiJddcWGCednxoNt3SdF4.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/QScQokqEg8v52tCDMBTiZ2CDIDM.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/Vde2PPwPGG9S3RLjKU1wMKpOzQ.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/cQEv8x1uiQ8Vsdschu4VE5wBxes.png, alt: Chainless web screen }
+  - { src: /images/projects/chainless/ceeGxm5I6Nx0zz62xUmje681Lz8.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/dSlbzZ2s931sOHhE1Wh7o39swU.png, alt: Chainless web screen }
+  - { src: /images/projects/chainless/e8xHEKabmjeXC1EXxlVp7SWGGxU.png, alt: Chainless web screen }
+  - { src: /images/projects/chainless/mTQvpZjKMsFxa2ZvHyajabOawo.png, alt: Chainless web screen }
+  - { src: /images/projects/chainless/mgNOUw9Evht8JGG3vr0s4V66Hg4.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/n7gCSXDjNNCBJpdehZ9RgGnJ88Q.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/pjjXA6h1RBvS1szesRyvrToHPo.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/viAVT4o0qTK5khWr65dhRuvWM.png, alt: Chainless web screen }
+  - { src: /images/projects/chainless/ybpFNI0D4sONmuk2DAp4EbfeDE.png, alt: Chainless app screen }
+  - { src: /images/projects/chainless/CfzF3WRLcz8mDB16wS5A0pI.png, alt: Chainless web screen }
+  - { src: /images/projects/chainless/YNFYAaQ49rKk5fqFRrkQfWWSc88.png, alt: Chainless web screen }
 outcome: Cofounded Notus and led product + design for Chainless, a Brazilian crypto fintech. Designed KYC and transaction UX. Launched at Blockchain Rio. Managed the design team.
 tags: [product, fintech, crypto, leadership, kyc]
 links:
   - { label: "Chainless", href: "https://chainless.finance", external: true }
   - { label: "Notus", href: "https://notus.team", external: true }
 ---
-<!-- DRAFT: needs user edit pass -->
-
 ## Context
-Cofounded Notus in 2023 to build Chainless — a Brazilian crypto fintech focused on bringing onchain UX to a market where KYC and regulatory friction are real blockers. The Brazilian crypto landscape was active but fragmented: powerful local user base, weak product layer. Most apps treated KYC as a wall; we treated it as part of the product.
+Chainless is an innovative app that lets users interact with the blockchain ecosystem in an intuitive, simplified way. A Brazilian crypto fintech that treated KYC and onchain transactions as part of the product, not a wall around it.
 
 ## What I did
-Led product + design end-to-end. Designed the KYC flow to feel like a fintech app, not a compliance checkpoint. Designed the transaction UX — onchain operations exposed in a way that mainstream users could trust. Managed the design team as we grew. Drove product decisions alongside engineering and ops cofounders. Launched publicly at Blockchain Rio.
+Multifaceted role across the product — design management, UX, development leadership, and digital strategy. I worked to ensure a consistent interface, efficient flows, and a product aligned with market needs.
 
 ## Outcome
-Chainless launched at Blockchain Rio with working KYC + transactions. Real users, real money moving. The Notus team continues operating; I exited day-to-day in 2024 to pursue Design Engineering work. Strongest signal: building a fintech in a regulated market from zero, with users who actually transact.
+Launched publicly at Blockchain Rio 2024 with full KYC, PIX + on-chain transactions, and the Dollar Income feature. 120 users onboarded on launch day. Strongest signal: building a Brazilian crypto fintech in a regulated market, with users who actually transact.
+
+## Deep Dive
+
+### Leadership in Development and Launch
+
+Coordinated the development team to ensure the app was ready for launch — uniting design, technology, and user experience. Worked alongside developers and stakeholders to align product vision and ensure efficient, cohesive delivery.
+
+### Design Management and Design System
+
+- **Design Management:** Coordinated multiple designers, implementing Design Review processes, ensuring consistency, and improving Figma file organization.
+- **Design System:** Used a Design System and UI Kit called **Nucleus**, which I customized for the Chainless app. Over a year, maintained and customized component libraries and styles, ensuring visual identity uniformity and facilitating design scalability through development.
+- **UI/UX Design:** Collaborated on flow and feature design, applying my blockchain expertise to deliver innovative experiences within the app.
+
+### User Experience and Critical Flows
+
+- **KYC Flows (Know Your Customer):** Structured the design of screens and interactions to ensure a secure, intuitive verification process — reducing onboarding friction.
+- **PIX + On-chain Transaction Standardization:** Developed a unified transaction flow so PIX payments and on-chain transactions delivered consistent experiences. Goal: minimize perceptible differences between blockchain and digital banking, eliminating friction and facilitating adoption.
+
+### Dollar Income Feature
+
+Actively participated in the creation and launch of the Dollar Income feature — concept to implementation. The standout: speed of the design, development, and launch cycle, completed in just two weeks.
+
+### Website and Digital Strategy
+
+- Redesigned the institutional website, adapting styles, sections, and menus to align with the brand's visual identity.
+- Created custom landing pages for influencers and for the Blockchain Rio 2024 launch — driving engagement and app adoption.
+- Implemented a support form, optimizing user service and reducing team response time.
