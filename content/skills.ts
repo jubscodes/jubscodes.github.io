@@ -31,6 +31,7 @@ export const skills: Skill[] = [
     projects: [
       { name: "Shippit (Remix · Convex · Shadcn)", href: "/projects/shippit/", period: "2025—" },
       { name: "BWB Tokenization (React Router 7)", period: "2025—" },
+      { name: "Tools for the Commons (Nuxt · Vue)", period: "2025" },
       { name: "Founderhaus Base (Farcaster Mini App)", period: "2025" },
       { name: "Learn to Fly (Expo · NativeWind)", period: "2025" },
       { name: "jubs.studio (Next.js · Tailwind v4)", period: "2026" },

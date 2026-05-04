@@ -52,6 +52,7 @@ URL: https://jubs.studio/projects/luxy/
 ## Recognition
 
 - Showcase — Cursor Coffee, Florianópolis 2026 — showcased projects designed and built end-to-end inside Cursor
+- Tools for the Commons 2025 — short web design + front-end contribution (Figma, Framer, Nuxt/Vue)
 - Builder Residency — Avalanche Innovation House, Buenos Aires 2024 — three-month residency with the Notus team
 - 1st Place (Aurora track) — ETH Samba Hackathon 2023 — The Gens, a generative NFT collection with ticket-to-mint UX
 - Best LayerZero — Avalanche Summit Hackathon (Encode Club), Barcelona 2022 — AnyDAO, a cross-chain governance protocol

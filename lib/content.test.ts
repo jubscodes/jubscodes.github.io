@@ -203,9 +203,9 @@ describe("real content loads", () => {
     expect(cs.map((c) => c.slug).sort()).toEqual(["chainless", "heimdall", "luxy", "shippit"]);
   });
 
-  it("getExperiences parses 4 experiences", async () => {
+  it("getExperiences parses 5 experiences", async () => {
     const { getExperiences } = await import("@/lib/content");
     const ex = await getExperiences();
-    expect(ex.length).toBe(4);
+    expect(ex.length).toBe(5);
   });
 });
