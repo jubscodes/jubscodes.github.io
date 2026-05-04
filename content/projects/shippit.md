@@ -17,7 +17,7 @@ image_layout: strip
 cover: /images/projects/shippit/cover.png
 images:
   - { src: /images/projects/shippit/cover.png, alt: Shippit }
-outcome: Design engineering at Shippit — front-end for client projects (BWB Tokenization, Founderhaus Base, Learn to Fly), built the current shippit.app website, and create Claude plugins for the team.
+outcome: Design engineering at Shippit — front-end for client projects (BWB Tokenization, Founderhaus Base, Learn to Fly), built the current shippit.app website, and exploring Claude plugins for the team's AI tooling.
 tags: [design-engineering, design-systems, react, claude-plugins, ai-rules, client-work]
 links:
   - { label: "shippit.app", href: "https://shippit.app", external: true }
@@ -27,10 +27,10 @@ links:
 Shippit is an AI-first software house. I joined in late 2025 as Design Engineer — front-end + design systems across both client work and Shippit's own products.
 
 ## What I did
-Three threads: design engineering for client projects, the current shippit.app website end-to-end, and Claude plugins for the team's AI tooling. Across all of them — clean front-end, design systems that scale, AI rules that govern how agents propose code.
+Three threads: design engineering for client projects, the current shippit.app website end-to-end, and experimental Claude plugins for the team's AI tooling. Across all of them — clean front-end, design systems that scale, AI rules that govern how agents propose code.
 
 ## Outcome
-Active engagement. Client projects shipped or in flight. shippit.app live. Plugins in regular use across the team.
+Active engagement. Client projects shipped or in flight. shippit.app live. Claude plugins still experimental — exploring how far we can push design + agent workflows inside the IDE.
 
 ## Deep Dive
 
@@ -45,6 +45,6 @@ Active engagement. Client projects shipped or in flight. shippit.app live. Plugi
 
 Built the current production website end-to-end — brand alignment, product positioning, design system applied front-to-back.
 
-### Claude Plugins
+### Claude Plugins (experimental)
 
-Created Claude plugins for the team — design system enforcement, agent rules that govern how Claude/Cursor agents propose code, and internal workflows that keep design+code aligned inside the IDE.
+Building experimental Claude plugins for the team — exploring design system enforcement, agent rules that guide how Claude/Cursor agents propose code, and internal workflows that keep design+code aligned inside the IDE. Still early; treating it as R&D for what AI tooling can do for design engineering teams.
