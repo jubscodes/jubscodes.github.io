@@ -24,10 +24,10 @@ links:
   - { label: "LinkedIn role", href: "https://linkedin.com/in/julia-hoffmann-/", external: true }
 ---
 ## Context
-Shippit is an AI-first software house. I joined in late 2025 as Design Engineer — front-end + design systems across both client work and Shippit's own products.
+Shippit is an AI-native software consultancy that embeds with client teams to ship production software fast — across AI-native development, blockchain engineering, and full-stack implementation. I joined in late 2025 as Design Engineer, working front-end + design systems across client engagements and Shippit's own products.
 
 ## What I did
-Three threads: design engineering for client projects, the current shippit.app website end-to-end, and experimental Claude plugins for the team's AI tooling. Across all of them — clean front-end, design systems that scale, AI rules that govern how agents propose code.
+Three threads: design engineering on Shippit's client engagements (BWB Tokenization, Founderhaus Base, Learn to Fly, ETH Global onchain agent), the current shippit.app website end-to-end, and experimental Claude plugins for the team's AI tooling. Across all of them — clean front-end, design systems that scale, AI rules that govern how agents propose code.
 
 ## Outcome
 Active engagement. Client projects shipped or in flight. shippit.app live. Claude plugins still experimental — exploring how far we can push design + agent workflows inside the IDE.
