@@ -30,13 +30,25 @@ outcome: Sole designer for a crypto data platform. Built a complete design syste
 tags: [design-system, figma, tailwind, data-viz, crypto]
 links: []
 ---
-<!-- DRAFT: needs user edit pass -->
-
 ## Context
-Heimdall is a crypto data platform — dashboards and analytics for onchain activity. In 2022 they needed a design system before scaling the product surface, and I came in as the sole designer. The challenge: data-viz density without visual chaos, and a token system the engineering team could implement directly without translation overhead.
+Heimdall is a cryptocurrency data company with social rankings. I joined as the sole designer on the development team — built the design system from scratch and designed the platform's complete interface.
 
 ## What I did
-Built the design system in Figma from scratch: typography scale, color tokens (including chart-specific palettes that work for colorblind users), component library covering tables, charts, panels, modals. Mapped every token to Tailwind utilities so engineering could ship without re-deriving values. Documented usage rules. Iterated with engineering until handoff ran clean.
+Designed for data density without visual chaos. Built a Design Kit with typographic hierarchy, color palettes, and component creation — every token aligned with Tailwind so engineering shipped without translation. Modular components covered tables, charts, panels, and article publishing surfaces.
 
 ## Outcome
-The design system shipped. Engineering built directly off the Tailwind-aligned tokens — no Figma-to-code translation step. Components reused across product surfaces. Solo design work end-to-end, from research to handoff to maintenance.
+Design system shipped. Components reused across product surfaces. Solo design end-to-end — research, kit, components, data viz, handoff.
+
+## Deep Dive
+
+### Design Kit
+
+Developed a complete Design Kit including **Type Scales**, hierarchy, and a color palette optimized for the developers' goals — every token aligned with Tailwind utilities so engineering could ship without re-deriving values.
+
+### Componentization
+
+Modular components adapted for a data and article publishing platform — tables, charts, panels, modals, content blocks. Documented usage rules; iterated with engineering until handoff ran clean.
+
+### Data Visualization
+
+Custom solution for visualizing cryptocurrency data tables in mobile format — horizontal scrolling, table formatting for complex data, accessible color choices for chart-specific surfaces.

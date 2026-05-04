@@ -75,6 +75,7 @@ Actively participated in the creation and launch of the Dollar Income feature â€
 
 ### Website and Digital Strategy
 
-- Redesigned the institutional website, adapting styles, sections, and menus to align with the brand's visual identity.
-- Created custom landing pages for influencers and for the Blockchain Rio 2024 launch â€” driving engagement and app adoption.
-- Implemented a support form, optimizing user service and reducing team response time.
+- **Brand implementation:** Inherited an initial site built on a generic template; reformulated styles, sections, and menus to align with the brand's visual identity. Built a reusable template system for quick landing-page deployment.
+- **Blockchain Rio 2024 launch:** Developed an interactive **gamified quest** experience to drive engagement and app adoption.
+- **Influencer landing pages:** Custom promotional pages with minimal friction for app onboarding.
+- **Support form:** Implemented to optimize user service and reduce team response time.
