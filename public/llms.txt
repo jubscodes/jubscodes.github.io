@@ -1,0 +1,70 @@
+# jubs.studio
+
+> Design engineering solo studio by Julia Hoffmann Buratto (@jubscodes). Opinionated UI kits and AI design tools for developers and agents.
+
+## Skills
+
+Currently building front-end + design systems at Shippit. Core skills:
+
+- Design systems — Figma → Tailwind handoff, shadcn ecosystem, token-based architecture
+- Front-end engineering — React 19, Next.js 16, TypeScript, static export
+- AI coding tools — rules files for Claude Code/Cursor agents, design+build inside the IDE
+- Onchain UX — KYC flows, transaction design, fintech compliance UX
+- Product design + leadership — cofounded Notus, led product+design through launch
+- Technical writing — design specs, AI rules, contribution guides
+
+Reach out for collaboration, technical questions, or trading notes via LinkedIn or X.
+
+## About
+
+jubs.studio is a design engineering solo studio focused on building opinionated developer tools that bridge design and code. Founded by Julia Hoffmann Buratto, a design engineer who builds UI component libraries and AI-powered design tooling.
+
+## Projects
+
+### CypherCN (UI Kit — Alpha)
+Terminal-inspired component stylization for the shadcn ecosystem. 60+ components with phosphor glow effects, CRT scanlines, box-drawing borders, and monospace typography. Dark mode native. WCAG AA accessible.
+- Install: `pnpm dlx shadcn@latest add @cyphercn/button`
+- Repository: https://github.com/jubscodes/cyphercn
+
+### Get Shit Pretty — GSP (Dev Tool)
+Design engineering for AI coding tools. A complete design pipeline that runs in your terminal — research, brand, design system, UI, specs, review, build, launch. Ships with 9 specialized agents and 11 skills. Works with Claude Code, OpenCode, Gemini CLI, and Codex CLI.
+- Install: `npx get-shit-pretty`
+- Repository: https://github.com/jubscodes/get-shit-pretty
+
+## Selected work
+
+### Shippit (2025 — present, Design Engineer)
+Built front-end for an agentic AI platform. Authored AI rules, refactored the codebase, established a design system that scales with the product.
+URL: https://jubs.studio/projects/shippit/
+
+### Chainless (2023 — 2025, Cofounder · Product & Design at Notus)
+Cofounded Notus and led product + design for Chainless, a Brazilian crypto fintech. Designed KYC and transaction UX. Launched at Blockchain Rio. Managed the design team.
+URL: https://jubs.studio/projects/chainless/
+
+### Heimdall (2022 — 2023, Solo Designer)
+Sole designer for a crypto data platform. Built a complete design system in Figma — typography, color, components — aligned with Tailwind for dev handoff.
+URL: https://jubs.studio/projects/heimdall/
+
+### Luxy (2021 — 2022, Cofounder · Project Leader)
+First startup. Multichain NFT marketplace and creator tools on Syscoin. Led product vision, team, fundraising, and launch. Token launch didn't perform; product never found PMF. Foundational learning that shaped everything since.
+URL: https://jubs.studio/projects/luxy/
+
+## Recognition
+
+- Showcase — Cursor Coffee, Florianópolis 2026 — showcased projects designed and built end-to-end inside Cursor
+- Tools for the Commons 2025 — short web design + front-end contribution (Figma, Framer, Nuxt/Vue)
+- Builder Residency — Avalanche Innovation House, Buenos Aires 2024 — three-month residency with the Notus team
+- 1st Place (Aurora track) — ETH Samba Hackathon 2023 — The Gens, a generative NFT collection with ticket-to-mint UX
+- Best LayerZero — Avalanche Summit Hackathon (Encode Club), Barcelona 2022 — AnyDAO, a cross-chain governance protocol
+
+## Links
+
+- Website: https://jubs.studio
+- About: https://jubs.studio/about/
+- GitHub: https://github.com/jubscodes
+- X: https://x.com/hoffz_eth
+- LinkedIn: https://www.linkedin.com/in/julia-hoffmann-/
+
+## Topics
+
+design engineering, UI components, shadcn, design systems, terminal UI, developer tools, AI coding tools, component libraries, design-to-code, open source
