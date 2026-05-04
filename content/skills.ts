@@ -46,7 +46,6 @@ export const skills: Skill[] = [
       { name: "Shippit AI rules (Cursor / Claude)", href: "/projects/shippit/", period: "2025—" },
       { name: "Get Shit Pretty", period: "2025—" },
       { name: "CypherCN registry", period: "2025—" },
-      { name: "ETH Global · Onchain Agent on Base", period: "2025" },
     ],
   },
   {
@@ -68,7 +67,6 @@ export const skills: Skill[] = [
     years: 5,
     projects: [
       { name: "BWB Tokenization (real estate · EVM)", period: "2025—" },
-      { name: "ETH Global · Onchain Agent on Base", period: "2025" },
       { name: "Chainless (PIX + onchain transactions)", href: "/projects/chainless/", period: "2023—24" },
       { name: "Notus Labs (multichain infra)", period: "2023—24" },
       { name: "The Gens (Aurora · NEAR)", period: "2023" },
@@ -102,10 +100,8 @@ export const skills: Skill[] = [
   {
     slug: "hackathon-shipping",
     name: "Hackathon shipping",
-    years: 4,
+    years: 2,
     projects: [
-      { name: "ETH Global · Onchain Agent on Base", period: "2025" },
-      { name: "Avalanche Innovation House · Buenos Aires", period: "2024" },
       { name: "ETH Samba · 1st Aurora (The Gens)", period: "2023" },
       { name: "Avalanche Summit · Best LayerZero (AnyDAO)", period: "2022" },
     ],
