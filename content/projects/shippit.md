@@ -8,7 +8,7 @@ role: Design Engineer
 company: Shippit
 company_url: https://shippit.app
 period: 2025 — present
-start_date: 2025-04
+start_date: 2025-09
 end_date: null
 location: Remote
 accent: secondary
@@ -16,20 +16,35 @@ hero_variant: cover
 image_layout: strip
 cover: /images/projects/shippit/cover.png
 images:
-  - { src: /images/projects/shippit/cover.png, alt: Shippit dashboard }
-outcome: Built front-end for an agentic AI platform. Authored AI rules, refactored the codebase, established a design system that scales with the product.
-tags: [design-system, react, ai-rules, typescript, refactoring]
+  - { src: /images/projects/shippit/cover.png, alt: Shippit }
+outcome: Design engineering at Shippit — front-end for client projects (BWB Tokenization, Founderhaus Base, Learn to Fly), built the current shippit.app website, and create Claude plugins for the team.
+tags: [design-engineering, design-systems, react, claude-plugins, ai-rules, client-work]
 links:
-  - { label: "Live site", href: "https://shippit.app", external: true }
+  - { label: "shippit.app", href: "https://shippit.app", external: true }
   - { label: "LinkedIn role", href: "https://linkedin.com/in/julia-hoffmann-/", external: true }
 ---
-<!-- DRAFT: needs user edit pass -->
-
 ## Context
-Shippit is an agentic AI platform — agents that act as engineering coworkers, not just chatbots. I joined as Design Engineer in April 2025 with the company at early-product stage: working prototype, no design system, codebase that had grown faster than its conventions. The product needed to feel calm and trustworthy while exposing agent behavior that's inherently chaotic. My remit: front-end ownership across the whole product surface.
+Shippit is an AI-first software house. I joined in late 2025 as Design Engineer — front-end + design systems across both client work and Shippit's own products.
 
 ## What I did
-Authored the AI rules file that governs how Claude/Cursor agents propose code in this repo — turned implicit conventions into explicit guidance. Refactored the front-end: split monoliths into component-scoped files, replaced ad-hoc CSS with token-based Tailwind, set up shadcn/ui for primitives. Established a design system that scales: composition rules, accent system for agent state, typography scale tied to information hierarchy. Worked end-to-end from Figma to shipped React.
+Three threads: design engineering for client projects, the current shippit.app website end-to-end, and Claude plugins for the team's AI tooling. Across all of them — clean front-end, design systems that scale, AI rules that govern how agents propose code.
 
 ## Outcome
-The design system is the foundation new product surfaces are built on. AI rules are referenced by every PR. The refactored codebase ships features faster — fewer "where does this go" decisions. Branding work shipped; product website v1 in flight as of April 2026. Active engagement.
+Active engagement. Client projects shipped or in flight. shippit.app live. Plugins in regular use across the team.
+
+## Deep Dive
+
+### Client Projects
+
+- **BWB Tokenization:** Front-end lead on a real-estate tokenization platform. Built with React Router 7, Convex, TypeScript, Tailwind, Shadcn, Ethers, Privy. Defined 13 milestones (MS-01–MS-13), authored a 52-document system, defined 7 personas, designed the authorization architecture, built an AI-optimized INDEX.md.
+- **Founderhaus Base:** Live Farcaster Mini App on Base. Full front-end build.
+- **Learn to Fly:** Expo / React Native refactor — NativeWind, RN Primitives, design system + component refactor.
+- **ETH Global Hackathon:** Onchain agent on Base — AgentKit, multi-agent architecture.
+
+### shippit.app Website
+
+Built the current production website end-to-end — brand alignment, product positioning, design system applied front-to-back.
+
+### Claude Plugins
+
+Created Claude plugins for the team — design system enforcement, agent rules that govern how Claude/Cursor agents propose code, and internal workflows that keep design+code aligned inside the IDE.
