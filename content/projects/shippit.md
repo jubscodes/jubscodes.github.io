@@ -19,6 +19,7 @@ images:
   - { src: /images/projects/shippit/shippit-1.png, alt: Shippit }
   - { src: /images/projects/shippit/shippit-2.png, alt: Shippit }
   - { src: /images/projects/shippit/shippit-3.png, alt: Shippit }
+  - { src: /images/projects/shippit/shippit-4.png, alt: Shippit }
 outcome: Design engineering at Shippit — front-end for client projects (BWB Tokenization, Founderhaus Base, Learn to Fly), built the current shippit.app website, and exploring Claude plugins for the team's AI tooling.
 tags: [design-engineering, design-systems, react, claude-plugins, ai-rules, client-work]
 links:
