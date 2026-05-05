@@ -106,6 +106,7 @@ export default async function CaseStudyPage({ params }: { params: Promise<{ slug
         company={c.company}
         location={c.location}
         accent={c.accent}
+        customHero={c.customHero}
       />
       <LinkList links={c.links} accent={c.accent} />
       <TagList tags={c.tags} accent={c.accent} />
