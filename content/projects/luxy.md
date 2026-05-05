@@ -24,10 +24,10 @@ links:
 <!-- DRAFT: needs user edit pass -->
 
 ## Context
-Luxy was my first startup — a multichain NFT marketplace and creator tools for the Syscoin blockchain. Cofounded in early 2021 alongside Pollum, who handled execution, while I led product as Project Leader. The NFT space was at peak hype; Syscoin needed a marketplace; we built one. The honest part of the story: it raised, it shipped, it didn't last.
+Luxy was my first startup, a multichain NFT marketplace and creator tools for the Syscoin blockchain. Cofounded in early 2021 alongside Pollum, who handled execution, while I led product as Project Leader. The NFT space was at peak hype; Syscoin needed a marketplace; we built one. The honest part of the story: it raised, it shipped, it didn't last.
 
 ## What I did
-Set product vision and strategy. Led the development team and designers across daily standups and weekly stakeholder calls. Built Figma prototypes for the marketplace and creator tools — mint, list, manage collections. Authored the pitch deck that secured Luxy's fundraising round. Drove the brand identity end-to-end. Coordinated Pollum's engineering team through launch.
+Set product vision and strategy. Led the development team and designers across daily standups and weekly stakeholder calls. Built Figma prototypes for the marketplace and creator tools (mint, list, manage collections). Authored the pitch deck that secured Luxy's fundraising round. Drove the brand identity end-to-end. Coordinated Pollum's engineering team through launch.
 
 ## Outcome
-Solid project leadership experience — led product vision, a development team, fundraising, and launch. The token launch didn't perform; the product never found product-market fit. First end-to-end startup arc taught me what fundraising can do, what tokens can't, and how to lead through a difficult product cycle. Foundation everything since has been built on.
+Solid project leadership experience: led product vision, a development team, fundraising, and launch. The token launch didn't perform; the product never found product-market fit. First end-to-end startup arc taught me what fundraising can do, what tokens can't, and how to lead through a difficult product cycle. The foundation everything since has been built on.
