@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Container } from "./container";
+import { AsciiHero } from "./ascii-hero";
+import type { CustomHero } from "@/lib/content";
 
 type Accent = "primary" | "secondary" | "tertiary";
 
@@ -17,17 +19,24 @@ export function CaseStudyHero(props: {
   company: string;
   location?: string;
   accent: Accent;
+  customHero?: CustomHero;
 }) {
   return (
     <header className="relative h-[60vh] min-h-[480px] w-full overflow-hidden bg-surface">
-      <Image
-        src={props.cover}
-        alt={`${props.name} cover`}
-        fill
-        className="object-cover"
-        priority
-        sizes="100vw"
-      />
+      {props.customHero === "ascii-gsp" ? (
+        <div className="absolute inset-0 flex items-center justify-center px-4">
+          <AsciiHero />
+        </div>
+      ) : (
+        <Image
+          src={props.cover}
+          alt={`${props.name} cover`}
+          fill
+          className="object-cover"
+          priority
+          sizes="100vw"
+        />
+      )}
       <div
         aria-hidden
         className="absolute inset-0 bg-gradient-to-t from-bg from-15% via-bg/55 to-bg/10"
