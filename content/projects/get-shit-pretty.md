@@ -34,23 +34,9 @@ GSP is the missing half of that bridge. Research, brand, design systems, UI patt
 
 ## What I did
 
-Designed and built GSP end to end: architecture, skill system, agents, installer, marketing site, npm package.
+End to end, solo. Architecture, skill system, 12 agents, multi-runtime installer, marketing site, npm package.
 
-The shape from the user's seat: run `/gsp-start`, and GSP figures out where you are.
-
-- Need a brand? It runs the brand diamond: brief, research, strategy, identity, guidelines.
-- Have one? It runs the project diamond: brief, research, design, critique, build, review.
-
-Artifacts land in `.design/`. State recovers across sessions, so you can close the laptop mid-phase and pick back up.
-
-Under the hood, two skill layers split the work:
-
-- **Expertise skills** own knowledge. `gsp-color` knows OKLCH. `gsp-typography` knows scale and pairing. `gsp-visuals`, `gsp-accessibility`, `gsp-style` each own their domain.
-- **Pipeline skills** orchestrate. They read from expertise skills when they need domain knowledge, instead of duplicating it.
-
-The filesystem is the integration layer. One phase writes to `.design/`. The next phase reads from it. No phase relies on conversation context surviving.
-
-Ships as a zero-dependency npm package. Same source, four runtimes: Claude Code, OpenCode, Gemini CLI, Codex CLI. The installer translates the native skill format into each runtime's expected layout, mapping tool names and invocation syntax along the way.
+Opinionated by design: a dual-diamond pipeline, two skill layers, four runtimes from one source.
 
 ## Outcome
 
