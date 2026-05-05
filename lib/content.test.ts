@@ -257,16 +257,40 @@ describe("CaseStudy.customHero parsing", () => {
 });
 
 describe("real content loads", () => {
-  it("getCaseStudies parses 4 case studies", async () => {
+  it("getCaseStudies parses 5 case studies", async () => {
     const { getCaseStudies } = await import("@/lib/content");
     const cs = await getCaseStudies();
-    expect(cs.length).toBe(4);
-    expect(cs.map((c) => c.slug).sort()).toEqual(["chainless", "heimdall", "luxy", "shippit"]);
+    expect(cs.length).toBe(5);
+    expect(cs.map((c) => c.slug).sort()).toEqual([
+      "chainless",
+      "get-shit-pretty",
+      "heimdall",
+      "luxy",
+      "shippit",
+    ]);
   });
 
   it("getExperiences parses 6 experiences", async () => {
     const { getExperiences } = await import("@/lib/content");
     const ex = await getExperiences();
     expect(ex.length).toBe(6);
+    expect(ex.map((e) => e.slug)).toContain("ipe-city");
+    expect(ex.map((e) => e.slug)).not.toContain("get-shit-pretty");
+  });
+
+  it("get-shit-pretty case study uses customHero", async () => {
+    const { getCaseStudy } = await import("@/lib/content");
+    const gsp = await getCaseStudy("get-shit-pretty");
+    expect(gsp).not.toBeNull();
+    expect(gsp?.customHero).toBe("ascii-gsp");
+  });
+
+  it("ipe-city experience has video + slides media", async () => {
+    const { getExperiences } = await import("@/lib/content");
+    const ipe = (await getExperiences()).find((e) => e.slug === "ipe-city");
+    expect(ipe).toBeDefined();
+    expect(ipe?.media).toHaveLength(2);
+    expect(ipe?.media?.[0].type).toBe("video");
+    expect(ipe?.media?.[1].type).toBe("slides");
   });
 });
