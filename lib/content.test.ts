@@ -195,6 +195,67 @@ accent: tertiary
 `;
 }
 
+describe("Experience.media parsing", () => {
+  it("parses a media array with video and slides items", async () => {
+    mkdirSync(join(tmp, "experiences"));
+    writeFileSync(
+      join(tmp, "experiences", "with-media.md"),
+      `---
+slug: with-media
+name: Talk
+type: experience
+published: true
+meta: "Test · 2026"
+outcome: "Did a talk"
+tags: [talk]
+links: []
+accent: tertiary
+media:
+  - type: video
+    url: https://www.youtube.com/watch?v=ABC123XYZ
+    title: "Recording"
+  - type: slides
+    src: /slides/talk/
+    title: "Deck"
+---
+`,
+    );
+    const [item] = await _testInternals.loadExperiences(join(tmp, "experiences"));
+    expect(item.media).toHaveLength(2);
+    expect(item.media?.[0]).toEqual({ type: "video", url: "https://www.youtube.com/watch?v=ABC123XYZ", title: "Recording" });
+    expect(item.media?.[1]).toEqual({ type: "slides", src: "/slides/talk/", title: "Deck" });
+  });
+
+  it("treats missing media as undefined (optional)", async () => {
+    mkdirSync(join(tmp, "experiences"));
+    writeFileSync(join(tmp, "experiences", "no-media.md"), validExperienceMd({ slug: "no-media" }));
+    const [item] = await _testInternals.loadExperiences(join(tmp, "experiences"));
+    expect(item.media).toBeUndefined();
+  });
+});
+
+describe("CaseStudy.customHero parsing", () => {
+  it("parses customHero when present", async () => {
+    mkdirSync(join(tmp, "projects"));
+    writeFileSync(
+      join(tmp, "projects", "custom.md"),
+      validCaseStudyMd({ slug: "custom" }).replace(
+        "links: []\n---",
+        "links: []\ncustomHero: ascii-gsp\n---",
+      ),
+    );
+    const [item] = await _testInternals.loadCaseStudies(join(tmp, "projects"));
+    expect(item.customHero).toBe("ascii-gsp");
+  });
+
+  it("treats missing customHero as undefined (optional)", async () => {
+    mkdirSync(join(tmp, "projects"));
+    writeFileSync(join(tmp, "projects", "default.md"), validCaseStudyMd({ slug: "default" }));
+    const [item] = await _testInternals.loadCaseStudies(join(tmp, "projects"));
+    expect(item.customHero).toBeUndefined();
+  });
+});
+
 describe("real content loads", () => {
   it("getCaseStudies parses 4 case studies", async () => {
     const { getCaseStudies } = await import("@/lib/content");
