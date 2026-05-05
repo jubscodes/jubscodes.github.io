@@ -17,7 +17,7 @@ export function SlidesEmbed({
         <a
           href={standalone}
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           className="font-mono text-xs uppercase tracking-wider text-secondary hover:underline"
         >
           Open in new tab ↗
