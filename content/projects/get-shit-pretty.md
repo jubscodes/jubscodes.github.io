@@ -103,6 +103,6 @@ It's the same pattern I built into [Shippit](/projects/shippit/)'s design system
 
 ### Where it's running
 
-- **[Shippit](/projects/shippit/):** design engineering work across client projects (BWB Tokenization, Founderhaus Base, Learn to Fly) and the shippit.app website. GSP-shaped rules and skills feed the agentic coding workflows.
+- **[Shippit](/projects/shippit/):** the current shippit.app website was built with GSP. Earlier client work (BWB Tokenization, Founderhaus Base, Learn to Fly) used the precursor pattern that GSP eventually packaged, not GSP itself.
 - **[Chainless](/projects/chainless/):** Kevin (Chainless CEO) built the new chainless.finance website with GSP himself. First third-party shipping it end to end.
 - **This site, jubs.studio:** the portfolio you're reading was built with GSP. Brand pipeline for tokens and tone, project pipeline for components and pages.
