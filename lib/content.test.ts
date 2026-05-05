@@ -195,17 +195,102 @@ accent: tertiary
 `;
 }
 
+describe("Experience.media parsing", () => {
+  it("parses a media array with video and slides items", async () => {
+    mkdirSync(join(tmp, "experiences"));
+    writeFileSync(
+      join(tmp, "experiences", "with-media.md"),
+      `---
+slug: with-media
+name: Talk
+type: experience
+published: true
+meta: "Test · 2026"
+outcome: "Did a talk"
+tags: [talk]
+links: []
+accent: tertiary
+media:
+  - type: video
+    url: https://www.youtube.com/watch?v=ABC123XYZ
+    title: "Recording"
+  - type: slides
+    src: /slides/talk/
+    title: "Deck"
+---
+`,
+    );
+    const [item] = await _testInternals.loadExperiences(join(tmp, "experiences"));
+    expect(item.media).toHaveLength(2);
+    expect(item.media?.[0]).toEqual({ type: "video", url: "https://www.youtube.com/watch?v=ABC123XYZ", title: "Recording" });
+    expect(item.media?.[1]).toEqual({ type: "slides", src: "/slides/talk/", title: "Deck" });
+  });
+
+  it("treats missing media as undefined (optional)", async () => {
+    mkdirSync(join(tmp, "experiences"));
+    writeFileSync(join(tmp, "experiences", "no-media.md"), validExperienceMd({ slug: "no-media" }));
+    const [item] = await _testInternals.loadExperiences(join(tmp, "experiences"));
+    expect(item.media).toBeUndefined();
+  });
+});
+
+describe("CaseStudy.customHero parsing", () => {
+  it("parses customHero when present", async () => {
+    mkdirSync(join(tmp, "projects"));
+    writeFileSync(
+      join(tmp, "projects", "custom.md"),
+      validCaseStudyMd({ slug: "custom" }).replace(
+        "links: []\n---",
+        "links: []\ncustomHero: ascii-gsp\n---",
+      ),
+    );
+    const [item] = await _testInternals.loadCaseStudies(join(tmp, "projects"));
+    expect(item.customHero).toBe("ascii-gsp");
+  });
+
+  it("treats missing customHero as undefined (optional)", async () => {
+    mkdirSync(join(tmp, "projects"));
+    writeFileSync(join(tmp, "projects", "default.md"), validCaseStudyMd({ slug: "default" }));
+    const [item] = await _testInternals.loadCaseStudies(join(tmp, "projects"));
+    expect(item.customHero).toBeUndefined();
+  });
+});
+
 describe("real content loads", () => {
-  it("getCaseStudies parses 4 case studies", async () => {
+  it("getCaseStudies parses 5 case studies", async () => {
     const { getCaseStudies } = await import("@/lib/content");
     const cs = await getCaseStudies();
-    expect(cs.length).toBe(4);
-    expect(cs.map((c) => c.slug).sort()).toEqual(["chainless", "heimdall", "luxy", "shippit"]);
+    expect(cs.length).toBe(5);
+    expect(cs.map((c) => c.slug).sort()).toEqual([
+      "chainless",
+      "get-shit-pretty",
+      "heimdall",
+      "luxy",
+      "shippit",
+    ]);
   });
 
   it("getExperiences parses 6 experiences", async () => {
     const { getExperiences } = await import("@/lib/content");
     const ex = await getExperiences();
     expect(ex.length).toBe(6);
+    expect(ex.map((e) => e.slug)).toContain("ipe-city");
+    expect(ex.map((e) => e.slug)).not.toContain("get-shit-pretty");
+  });
+
+  it("get-shit-pretty case study uses customHero", async () => {
+    const { getCaseStudy } = await import("@/lib/content");
+    const gsp = await getCaseStudy("get-shit-pretty");
+    expect(gsp).not.toBeNull();
+    expect(gsp?.customHero).toBe("ascii-gsp");
+  });
+
+  it("ipe-city experience has video + slides media", async () => {
+    const { getExperiences } = await import("@/lib/content");
+    const ipe = (await getExperiences()).find((e) => e.slug === "ipe-city");
+    expect(ipe).toBeDefined();
+    expect(ipe?.media).toHaveLength(2);
+    expect(ipe?.media?.[0].type).toBe("video");
+    expect(ipe?.media?.[1].type).toBe("slides");
   });
 });

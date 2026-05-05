@@ -7,7 +7,7 @@ order: 2
 role: Cofounder · Product & Design
 company: Notus
 company_url: https://notus.team
-period: 2023 — 2025
+period: 2023 – 2025
 start_date: 2023-01
 end_date: 2025-01
 location: São Paulo
@@ -44,10 +44,10 @@ links:
   - { label: "Notus", href: "https://notus.team", external: true }
 ---
 ## Context
-Chainless is an innovative app that lets users interact with the blockchain ecosystem in an intuitive, simplified way. A Brazilian crypto fintech that treated KYC and onchain transactions as part of the product, not a wall around it.
+Chainless is a Brazilian crypto fintech app: KYC, PIX, and on-chain transactions in one product, treated KYC and onchain transactions as part of the product, not a wall around it.
 
 ## What I did
-Multifaceted role across the product — design management, UX, development leadership, and digital strategy. I worked to ensure a consistent interface, efficient flows, and a product aligned with market needs.
+Led product and design across the app: design management, UX, development leadership, and digital strategy. Set the bar for interface consistency and flow quality, kept the product pointed at the Brazilian market.
 
 ## Outcome
 Launched publicly at Blockchain Rio 2024 with full KYC, PIX + on-chain transactions, and the Dollar Income feature. 120 users onboarded on launch day. Strongest signal: building a Brazilian crypto fintech in a regulated market, with users who actually transact.
@@ -56,22 +56,22 @@ Launched publicly at Blockchain Rio 2024 with full KYC, PIX + on-chain transacti
 
 ### Leadership in Development and Launch
 
-Coordinated the development team to ensure the app was ready for launch — uniting design, technology, and user experience. Worked alongside developers and stakeholders to align product vision and ensure efficient, cohesive delivery.
+Coordinated the development team through launch, uniting design, technology, and user experience. Worked alongside developers and stakeholders to align product vision and deliver cohesively.
 
 ### Design Management and Design System
 
 - **Design Management:** Coordinated multiple designers, implementing Design Review processes, ensuring consistency, and improving Figma file organization.
-- **Design System:** Used a Design System and UI Kit called **Nucleus**, which I customized for the Chainless app. Over a year, maintained and customized component libraries and styles, ensuring visual identity uniformity and facilitating design scalability through development.
+- **Design System:** Used a Design System and UI Kit called **Nucleus**, which I customized for the Chainless app. Over a year, maintained and customized component libraries and styles, ensuring visual identity uniformity and design scalability through development.
 - **UI/UX Design:** Collaborated on flow and feature design, applying my blockchain expertise to deliver innovative experiences within the app.
 
 ### User Experience and Critical Flows
 
-- **KYC Flows (Know Your Customer):** Structured the design of screens and interactions to ensure a secure, intuitive verification process — reducing onboarding friction.
-- **PIX + On-chain Transaction Standardization:** Developed a unified transaction flow so PIX payments and on-chain transactions delivered consistent experiences. Goal: minimize perceptible differences between blockchain and digital banking, eliminating friction and facilitating adoption.
+- **KYC Flows (Know Your Customer):** Structured the design of screens and interactions for a secure, intuitive verification process, reducing onboarding friction.
+- **PIX + On-chain Transaction Standardization:** Developed a unified transaction flow so PIX payments and on-chain transactions delivered consistent experiences. Goal: minimize perceptible differences between blockchain and digital banking, easing adoption.
 
 ### Dollar Income Feature
 
-Actively participated in the creation and launch of the Dollar Income feature — concept to implementation. The standout: speed of the design, development, and launch cycle, completed in just two weeks.
+Actively participated in the creation and launch of the Dollar Income feature, concept to implementation. The standout: the design, development, and launch cycle completed in two weeks.
 
 ### Website and Digital Strategy
 

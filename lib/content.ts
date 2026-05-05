@@ -5,6 +5,12 @@ import matter from "gray-matter";
 export type Link = { label: string; href: string; external?: boolean };
 export type Image = { src: string; alt: string };
 
+export type MediaItem =
+  | { type: "video"; url: string; title?: string }
+  | { type: "slides"; src: string; title?: string; standaloneUrl?: string };
+
+export type CustomHero = "ascii-gsp";
+
 export type CaseStudy = {
   slug: string;
   name: string;
@@ -27,6 +33,7 @@ export type CaseStudy = {
   tags: string[];
   links: Link[];
   body: { context: string; whatIDid: string; outcome: string; deepDive?: string };
+  customHero?: CustomHero;
 };
 
 export type Experience = {
@@ -41,6 +48,7 @@ export type Experience = {
   links: Link[];
   images?: Image[];
   accent: "primary" | "secondary" | "tertiary";
+  media?: MediaItem[];
 };
 
 const REQUIRED_CASE_STUDY_FIELDS = [

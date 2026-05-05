@@ -66,6 +66,7 @@ export default async function Home() {
                 outcome: e.outcome,
                 tags: e.tags,
                 links: e.links,
+                media: e.media,
               }}
               variant="experience"
               accent="tertiary"
