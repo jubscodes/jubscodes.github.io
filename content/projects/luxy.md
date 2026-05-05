@@ -7,7 +7,7 @@ order: 4
 role: Cofounder · Project Leader
 company: Luxy
 company_url: https://luxy.io
-period: 2021 — 2022
+period: 2021 – 2022
 start_date: 2021-03
 end_date: 2022-06
 location: Remote
@@ -16,7 +16,7 @@ hero_variant: cover
 image_layout: strip
 cover: /images/projects/luxy/cover.png
 images: []
-outcome: Cofounded Luxy — a multichain NFT marketplace and creator tools on Syscoin. My first startup — led product vision, a development team, fundraising, and launch. Token launch didn't perform; product never found PMF. Foundational learning that shaped everything since.
+outcome: Cofounded Luxy, a multichain NFT marketplace and creator tools on Syscoin. My first startup. Led product vision, a development team, fundraising, and launch. Token launch didn't perform; product never found PMF. Foundational learning that shaped everything since.
 tags: [nft, marketplace, syscoin, fundraising, founder, learning]
 links:
   - { label: "luxy.io", href: "https://luxy.io", external: true }

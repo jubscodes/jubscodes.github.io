@@ -14,7 +14,7 @@ links:
 media:
   - type: video
     url: https://www.youtube.com/watch?v=C37nglGnTts
-    title: "Layer 2 — AI Skills for Design Engineering — Shippit workshop at Ipê City (Apr 15 2026)"
+    title: "Layer 2: AI Skills for Design Engineering. Shippit workshop at Ipê City (Apr 15 2026)"
   - type: slides
     src: /slides/design-engineering-apr15/
     title: "Workshop deck (Shippit, presented at Ipê City)"

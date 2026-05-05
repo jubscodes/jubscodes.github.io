@@ -6,7 +6,7 @@ published: true
 order: 3
 role: Solo Designer
 company: Heimdall
-period: 2022 — 2023
+period: 2022 – 2023
 start_date: 2022-10
 end_date: 2023-03
 location: Remote
@@ -26,7 +26,7 @@ images:
   - { src: /images/projects/heimdall/nCugWkz9ne2vfj4oIsnvLxHmtw.png, alt: Heimdall screen }
   - { src: /images/projects/heimdall/rf9SP65LWj5DfjvDVT9w2ucSc.png, alt: Heimdall screen }
   - { src: /images/projects/heimdall/ydAASOgD1UJ3haFm9NG3rMhOxA.png, alt: Heimdall screen }
-outcome: Sole designer for a crypto data platform. Built a complete design system in Figma — typography, color, components — aligned with Tailwind for dev handoff.
+outcome: Sole designer for a crypto data platform. Built a complete design system in Figma (typography, color, components), aligned with Tailwind for dev handoff.
 tags: [design-system, figma, tailwind, data-viz, crypto]
 links: []
 ---

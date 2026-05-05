@@ -7,7 +7,7 @@ order: 1
 role: Design Engineer
 company: Shippit
 company_url: https://shippit.app
-period: 2025 — present
+period: 2025 – present
 start_date: 2025-09
 end_date: null
 location: Remote
@@ -21,7 +21,7 @@ images:
   - { src: /images/projects/shippit/shippit-3.png, alt: Shippit }
   - { src: /images/projects/shippit/shippit-4.png, alt: Shippit }
   - { src: /images/projects/shippit/shippit-5.png, alt: Shippit }
-outcome: Design engineering at Shippit — front-end for client projects (BWB Tokenization, Founderhaus Base, Learn to Fly), built the current shippit.app website, and exploring Claude plugins for the team's AI tooling.
+outcome: Design engineering at Shippit. Front-end for client projects (BWB Tokenization, Founderhaus Base, Learn to Fly), built the current shippit.app website, and exploring Claude plugins for the team's AI tooling.
 tags: [design-engineering, design-systems, react, claude-plugins, ai-rules, client-work]
 links:
   - { label: "shippit.app", href: "https://shippit.app", external: true }
