@@ -5,6 +5,12 @@ import matter from "gray-matter";
 export type Link = { label: string; href: string; external?: boolean };
 export type Image = { src: string; alt: string };
 
+export type MediaItem =
+  | { type: "video"; url: string; title?: string }
+  | { type: "slides"; src: string; title?: string; standaloneUrl?: string };
+
+export type CustomHero = "ascii-gsp";
+
 export type CaseStudy = {
   slug: string;
   name: string;
