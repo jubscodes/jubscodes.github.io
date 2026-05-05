@@ -31,24 +31,24 @@ tags: [design-system, figma, tailwind, data-viz, crypto]
 links: []
 ---
 ## Context
-Heimdall is a cryptocurrency data company with social rankings. I joined as the sole designer on the development team — built the design system from scratch and designed the platform's complete interface.
+Heimdall is a cryptocurrency data company with social rankings. I joined as the sole designer on the development team, built the design system from scratch and designed the platform's complete interface.
 
 ## What I did
-Designed for data density without visual chaos. Built a Design Kit with typographic hierarchy, color palettes, and component creation — every token aligned with Tailwind so engineering shipped without translation. Modular components covered tables, charts, panels, and article publishing surfaces.
+Designed for data density without visual chaos. Built a Design Kit with typographic hierarchy, color palettes, and component creation; every token aligned with Tailwind so engineering shipped without translation. Modular components covered tables, charts, panels, and article publishing surfaces.
 
 ## Outcome
-Design system shipped. Components reused across product surfaces. Solo design end-to-end — research, kit, components, data viz, handoff.
+Design system shipped. Components reused across product surfaces. Solo design end-to-end: research, kit, components, data viz, handoff.
 
 ## Deep Dive
 
 ### Design Kit
 
-Developed a complete Design Kit including **Type Scales**, hierarchy, and a color palette optimized for the developers' goals — every token aligned with Tailwind utilities so engineering could ship without re-deriving values.
+Developed a complete Design Kit including **Type Scales**, hierarchy, and a color palette optimized for the developers' goals. Every token aligned with Tailwind utilities so engineering could ship without re-deriving values.
 
 ### Componentization
 
-Modular components adapted for a data and article publishing platform — tables, charts, panels, modals, content blocks. Documented usage rules; iterated with engineering until handoff ran clean.
+Modular components adapted for a data and article publishing platform: tables, charts, panels, modals, content blocks. Documented usage rules; iterated with engineering until handoff ran clean.
 
 ### Data Visualization
 
-Custom solution for visualizing cryptocurrency data tables in mobile format — horizontal scrolling, table formatting for complex data, accessible color choices for chart-specific surfaces.
+Custom solution for visualizing cryptocurrency data tables in mobile format: horizontal scrolling, table formatting for complex data, accessible color choices for chart-specific surfaces.
