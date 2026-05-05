@@ -34,9 +34,9 @@ GSP is the missing half of that bridge. Research, brand, design systems, UI patt
 
 ## What I did
 
-End to end, solo. Architecture, skill system, 12 agents, multi-runtime installer, marketing site, npm package.
+End to end, solo. Built GSP so anyone can run a real design process inside their AI coding tool: brand identity before code starts, design system shipped as agent-runnable skills, critique and accessibility as pipeline steps.
 
-Opinionated by design: a dual-diamond pipeline, two skill layers, four runtimes from one source.
+Brief to shipped, in the terminal. Same skills on Claude Code, OpenCode, Gemini, and Codex.
 
 ## Outcome
 
