@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const SHADES = ["░", "▒", "▓", "█"] as const;
 
@@ -160,13 +160,13 @@ export function AsciiHero() {
 
   return (
     <h1
-      className="mb-gsp-8 text-center overflow-hidden"
+      className="mb-8 text-center overflow-hidden"
       aria-label="Get Shit Pretty"
     >
       <pre
         key={bp}
         ref={preRef}
-        className={`font-mono text-foreground leading-[1.15] inline-block select-none ${
+        className={`font-mono text-fg leading-[1.15] inline-block select-none ${
           bp === "lg"
             ? "text-left text-[clamp(0.5rem,1.1vw,1rem)]"
             : "text-center text-[clamp(0.45rem,2.5vw,0.75rem)]"
