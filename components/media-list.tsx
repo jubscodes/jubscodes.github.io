@@ -1,6 +1,6 @@
 import type { MediaItem } from "@/lib/content";
 import { VideoEmbed } from "./video-embed";
-import { SlidesEmbed } from "./slides-embed";
+import { SlidesModal } from "./slides-modal";
 
 export function MediaList({ items }: { items: MediaItem[] }) {
   return (
@@ -11,7 +11,7 @@ export function MediaList({ items }: { items: MediaItem[] }) {
         }
         if (item.type === "slides") {
           return (
-            <SlidesEmbed
+            <SlidesModal
               key={i}
               src={item.src}
               title={item.title}
