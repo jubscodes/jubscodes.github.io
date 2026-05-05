@@ -78,4 +78,9 @@ Skills are the single source. Tool names get mapped per runtime (`Bash` becomes 
 
 The bet: encode design knowledge so AI agents enforce it automatically. Components as a system, not just code. Tokens as data. Critique as a step. Accessibility as a gate.
 
-It's the same pattern I built into Shippit's design system rules and into client codebases (BWB Tokenization, Sherry Chat, Learn to Fly). GSP is that pattern packaged: installable, opinionated, pipeline-shaped.
+It's the same pattern I built into [Shippit](/projects/shippit/)'s design system rules and into client codebases (BWB Tokenization, Sherry Chat, Learn to Fly). GSP is that pattern packaged: installable, opinionated, pipeline-shaped.
+
+### Where it's running
+
+- **[Shippit](/projects/shippit/):** design engineering work for client projects (BWB Tokenization, Founderhaus Base, Learn to Fly) and the shippit.app website. GSP-shaped rules and skills feed the agentic coding workflows.
+- **This site, jubs.studio:** the portfolio you're reading was built with GSP. Brand pipeline for tokens and tone, project pipeline for components and pages.
