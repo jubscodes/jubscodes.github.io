@@ -9,7 +9,7 @@ import { skills } from "@/content/skills";
 const SITE_URL = "https://jubs.studio";
 const PAGE_URL = `${SITE_URL}/about/`;
 const PAGE_DESCRIPTION =
-  "Julia Hoffmann Buratto — Design Engineer building AI tooling, design systems, and onchain UX. Cofounder at Notus. Currently at Shippit. Open to Design Engineer roles.";
+  "Julia Hoffmann Buratto — Product Engineer who ships end-to-end. Cofounded Notus, launched Chainless on App Store / Play Store with full KYC. Currently at Shippit. Open to Product Engineer roles.";
 const OG_IMAGE = "/images/projects/heimdall/cover.png";
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: OG_IMAGE,
         width: 1200,
         height: 630,
-        alt: "About Julia Hoffmann — Design Engineer",
+        alt: "About Julia Hoffmann — Product Engineer",
       },
     ],
   },
@@ -54,7 +54,7 @@ export default async function AboutPage() {
         </h1>
         <div className="mt-4 h-0.5 w-16 bg-secondary" />
         <p className="mt-6 font-mono text-xs uppercase tracking-wider text-muted">
-          Design Engineer · Currently at Shippit · Florianópolis
+          Product Engineer · Currently at Shippit · Florianópolis
         </p>
       </Container>
 
@@ -71,11 +71,12 @@ export default async function AboutPage() {
 
       <ContentBlock label="What I do">
         <p>
-          Design Engineer at the intersection of Figma and Tailwind. I build component
-          libraries (CypherCN), AI coding tools (Get Shit Pretty), and onchain UX with care
-          for both ends — the design system and the shipped code that uses it. I author AI
-          rules files, refactor codebases for design coherence, and design+build directly
-          inside AI IDEs like Cursor.
+          Product Engineer who ships end-to-end. Founder reps from Notus and Chainless;
+          today I lead front-end and architecture for BWB Tokenization at Shippit — auth
+          system, milestone-driven docs, and the production code behind both. Years in
+          Figma taught me how systems should feel; now I build them in React, TypeScript,
+          and Convex. On the side: component libraries (CypherCN), AI coding tools
+          (Get Shit Pretty), and AI rules that teach agents to follow design patterns.
         </p>
       </ContentBlock>
 

@@ -13,39 +13,15 @@ export type Skill = {
 
 export const skills: Skill[] = [
   {
-    slug: "design-systems",
-    name: "Design systems",
-    years: 4,
+    slug: "product-leadership",
+    name: "Product leadership",
+    years: 5,
     projects: [
-      { name: "Shippit (front-end + system)", href: "/projects/shippit/", period: "2025—" },
-      { name: "BWB Tokenization (front-end lead)", period: "2025—" },
-      { name: "Get Shit Pretty (design engineering for AI tools)", period: "2025—" },
-      { name: "Learn to Fly (Expo/RN refactor)", period: "2025" },
-      { name: "Chainless (Nucleus customization)", href: "/projects/chainless/", period: "2023—24" },
-      { name: "Heimdall (Figma → Tailwind)", href: "/projects/heimdall/", period: "2022—23" },
-    ],
-  },
-  {
-    slug: "front-end-engineering",
-    name: "Front-end engineering",
-    years: 2,
-    projects: [
-      { name: "Shippit (Remix · Convex · Shadcn)", href: "/projects/shippit/", period: "2025—" },
-      { name: "BWB Tokenization (React Router 7)", period: "2025—" },
-      { name: "Tools for the Commons (Nuxt · Vue)", period: "2025" },
-      { name: "Founderhaus Base (Farcaster Mini App)", period: "2025" },
-      { name: "Learn to Fly (Expo · NativeWind)", period: "2025" },
-      { name: "jubs.studio (Next.js · Tailwind v4)", period: "2026" },
-    ],
-  },
-  {
-    slug: "ai-coding-tools",
-    name: "AI coding tools",
-    years: 1,
-    projects: [
-      { name: "Shippit AI rules (Cursor / Claude)", href: "/projects/shippit/", period: "2025—" },
-      { name: "Get Shit Pretty", period: "2025—" },
-      { name: "CypherCN registry", period: "2025—" },
+      { name: "Shippit · BWB Tokenization (product ownership)", href: "/projects/shippit/", period: "2025—" },
+      { name: "Notus Labs (Cofounder · Operations & Product)", period: "2023—25" },
+      { name: "Chainless (Product + design lead)", href: "/projects/chainless/", period: "2023—24" },
+      { name: "Florianópolis Urban Planning Platform", period: "2023" },
+      { name: "Luxy (Cofounder · Project Leader)", href: "/projects/luxy/", period: "2021—22" },
     ],
   },
   {
@@ -76,6 +52,19 @@ export const skills: Skill[] = [
     ],
   },
   {
+    slug: "design-systems",
+    name: "Design systems",
+    years: 4,
+    projects: [
+      { name: "Shippit (front-end + system)", href: "/projects/shippit/", period: "2025—" },
+      { name: "BWB Tokenization (front-end lead)", period: "2025—" },
+      { name: "Get Shit Pretty (design engineering for AI tools)", period: "2025—" },
+      { name: "Learn to Fly (Expo/RN refactor)", period: "2025" },
+      { name: "Chainless (Nucleus customization)", href: "/projects/chainless/", period: "2023—24" },
+      { name: "Heimdall (Figma → Tailwind)", href: "/projects/heimdall/", period: "2022—23" },
+    ],
+  },
+  {
     slug: "account-abstraction",
     name: "Account Abstraction",
     years: 3,
@@ -86,15 +75,16 @@ export const skills: Skill[] = [
     ],
   },
   {
-    slug: "product-leadership",
-    name: "Product leadership",
-    years: 5,
+    slug: "front-end-engineering",
+    name: "Front-end engineering",
+    years: 2,
     projects: [
-      { name: "Shippit · BWB Tokenization (product ownership)", href: "/projects/shippit/", period: "2025—" },
-      { name: "Notus Labs (Cofounder · Operations & Product)", period: "2023—25" },
-      { name: "Chainless (Product + design lead)", href: "/projects/chainless/", period: "2023—24" },
-      { name: "Florianópolis Urban Planning Platform", period: "2023" },
-      { name: "Luxy (Cofounder · Project Leader)", href: "/projects/luxy/", period: "2021—22" },
+      { name: "Shippit (Remix · Convex · Shadcn)", href: "/projects/shippit/", period: "2025—" },
+      { name: "BWB Tokenization (React Router 7)", period: "2025—" },
+      { name: "Tools for the Commons (Nuxt · Vue)", period: "2025" },
+      { name: "Founderhaus Base (Farcaster Mini App)", period: "2025" },
+      { name: "Learn to Fly (Expo · NativeWind)", period: "2025" },
+      { name: "jubs.studio (Next.js · Tailwind v4)", period: "2026" },
     ],
   },
   {
@@ -104,6 +94,16 @@ export const skills: Skill[] = [
     projects: [
       { name: "ETH Samba · 1st Aurora (The Gens)", period: "2023" },
       { name: "Avalanche Summit · Best LayerZero (AnyDAO)", period: "2022" },
+    ],
+  },
+  {
+    slug: "ai-coding-tools",
+    name: "AI coding tools",
+    years: 1,
+    projects: [
+      { name: "Shippit AI rules (Cursor / Claude)", href: "/projects/shippit/", period: "2025—" },
+      { name: "Get Shit Pretty", period: "2025—" },
+      { name: "CypherCN registry", period: "2025—" },
     ],
   },
 ];
