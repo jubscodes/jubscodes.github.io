@@ -63,10 +63,10 @@ export default async function AboutPage() {
       <ContentBlock label="Background">
         <p>
           Cofounder & COO at Notus from 2023 to 2025 — a Brazilian crypto fintech — running
-          operations through Chainless&apos;s public launch at Blockchain Rio (now
-          shareholder/investor). Before that, sole designer for Heimdall (crypto data
-          platform), building a complete Figma-to-Tailwind design system. Currently leading
-          front-end and architecture for BWB Tokenization at Shippit.
+          operations through Chainless&apos;s public launch at Blockchain Rio. Before that,
+          sole designer for Heimdall (crypto data platform), building a complete
+          Figma-to-Tailwind design system. Currently leading front-end and architecture
+          for BWB Tokenization at Shippit.
         </p>
       </ContentBlock>
 
