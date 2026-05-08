@@ -17,9 +17,9 @@ export const skills: Skill[] = [
     name: "Product leadership",
     years: 5,
     projects: [
-      { name: "Shippit · BWB Tokenization (product ownership)", href: "/projects/shippit/", period: "2025—" },
+      { name: "Shippit · BWB Tokenization (product engineer)", href: "/projects/shippit/", period: "2025—" },
       { name: "Notus Labs (Cofounder · Operations & Product)", period: "2023—25" },
-      { name: "Chainless (Product + design lead)", href: "/projects/chainless/", period: "2023—24" },
+      { name: "Chainless (Operations · COO)", href: "/projects/chainless/", period: "2023—24" },
       { name: "Florianópolis Urban Planning Platform", period: "2023" },
       { name: "Luxy (Cofounder · Project Leader)", href: "/projects/luxy/", period: "2021—22" },
     ],
@@ -62,6 +62,21 @@ export const skills: Skill[] = [
       { name: "Learn to Fly (Expo/RN refactor)", period: "2025" },
       { name: "Chainless (Nucleus customization)", href: "/projects/chainless/", period: "2023—24" },
       { name: "Heimdall (Figma → Tailwind)", href: "/projects/heimdall/", period: "2022—23" },
+    ],
+  },
+  {
+    slug: "figma",
+    name: "Figma",
+    years: 5,
+    projects: [
+      { name: "Shippit (design system + handoff)", href: "/projects/shippit/", period: "2025—" },
+      { name: "BWB Tokenization (design)", period: "2025—" },
+      { name: "Sherry Labs (typography · components)", period: "2025" },
+      { name: "Chainless (Nucleus customization · KYC flows)", href: "/projects/chainless/", period: "2023—24" },
+      { name: "Notus Labs (file org · design system)", period: "2023—25" },
+      { name: "Heimdall (full design system from scratch)", href: "/projects/heimdall/", period: "2022—23" },
+      { name: "Luxy (NFT marketplace prototypes)", href: "/projects/luxy/", period: "2021—22" },
+      { name: "Quan Digital (trading interfaces)", period: "2021" },
     ],
   },
   {

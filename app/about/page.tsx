@@ -62,19 +62,22 @@ export default async function AboutPage() {
 
       <ContentBlock label="Background">
         <p>
-          Cofounded Notus in 2023 — a Brazilian crypto fintech — and led product + design
-          for Chainless through public launch at Blockchain Rio. Before that, sole designer
-          for Heimdall (crypto data platform), building a complete Figma-to-Tailwind design
-          system. Currently building front-end + design systems at Shippit.
+          Cofounded Notus in 2023 — a Brazilian crypto fintech — and ran operations as
+          COO through Chainless&apos;s public launch at Blockchain Rio. Before that, sole
+          designer for Heimdall (crypto data platform), building a complete Figma-to-Tailwind
+          design system. Currently leading front-end and architecture for BWB Tokenization
+          at Shippit.
         </p>
       </ContentBlock>
 
       <ContentBlock label="What I do">
         <p>
-          Product Engineer who ships end-to-end. Founder reps from Notus and Chainless;
-          today I lead front-end and architecture for BWB Tokenization at Shippit — auth
-          system, milestone-driven docs, and the production code behind both. Years in
-          Figma taught me how systems should feel; now I build them in React, TypeScript,
+          Product Engineer who ships end-to-end. Cofounded Notus and ran operations as
+          COO through Chainless&apos;s launch on App Store / Play Store with full KYC —
+          120 onboards on day one at Blockchain Rio. Today I lead front-end and
+          architecture for BWB Tokenization at Shippit — authorization system,
+          milestone-driven docs, and the production code behind it. Years in Figma
+          taught me how systems should feel; now I build them in React, TypeScript,
           and Convex. On the side: component libraries (CypherCN), AI coding tools
           (Get Shit Pretty), and AI rules that teach agents to follow design patterns.
         </p>
