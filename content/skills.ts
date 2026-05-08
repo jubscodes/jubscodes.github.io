@@ -18,7 +18,7 @@ export const skills: Skill[] = [
     years: 5,
     projects: [
       { name: "Shippit · BWB Tokenization (product engineer)", href: "/projects/shippit/", period: "2025—" },
-      { name: "Notus Labs (Cofounder · Operations & Product)", period: "2023—25" },
+      { name: "Notus Labs (Cofounder & COO)", period: "2023—25" },
       { name: "Chainless (Operations · COO)", href: "/projects/chainless/", period: "2023—24" },
       { name: "Florianópolis Urban Planning Platform", period: "2023" },
       { name: "Luxy (Cofounder · Project Leader)", href: "/projects/luxy/", period: "2021—22" },
