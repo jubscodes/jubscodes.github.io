@@ -69,8 +69,7 @@ export const skills: Skill[] = [
     name: "Figma",
     years: 5,
     projects: [
-      { name: "Shippit (design system + handoff)", href: "/projects/shippit/", period: "2025—" },
-      { name: "BWB Tokenization (design)", period: "2025—" },
+      { name: "Tools for the Commons (Figma + Framer)", period: "2025" },
       { name: "Sherry Labs (typography · components)", period: "2025" },
       { name: "Chainless (Nucleus customization · KYC flows)", href: "/projects/chainless/", period: "2023—24" },
       { name: "Notus Labs (file org · design system)", period: "2023—25" },
